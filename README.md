@@ -9,7 +9,6 @@
 ---
 
 ## Experiments 
- 
  >Distributed Computing Lab
  
  - DCL [Experiment - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%201/AMEY_B-50_DCL_EXPERIMENT-1.pdf)
@@ -18,7 +17,6 @@
  - DCL [Experiment - 4](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%204/AMEY_B-50_DCL_EXPERIMENT-4.pdf) | Lamport's Logical Clock - [LCS](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%204/LCS.py) | [LCS-Connorwstein](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%204/LCS-Connorwstein.py) | Kaggle - [LCS](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs) | Kaggle - [LCS-Connorwstein](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs-connorwstein)
 
 ## Quizzes 
- 
  >Distributed Computing
  
  - DC [Quiz - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/DC_1_FH_22%5Bco1%5D.pdf)
