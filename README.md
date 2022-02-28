@@ -32,5 +32,3 @@
  
  - DC [Quiz - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/DS_2_FH_22%5Bco2%5D.pdf)
 
-
-
