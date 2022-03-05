@@ -32,3 +32,13 @@
  
  - DC [Quiz - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/DS_2_FH_22%5Bco2%5D.pdf)
 
+
+## IAT - 1
+
+ - [Question Paper](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC%20IAT-1%20Question%20Paper.pdf) - IAT-1
+ 
+ - [DC Module - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf)
+ 
+ - [DC Module - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_2-Communication.pdf)
+ 
+ - [DC Module - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_3-Synchronization.pdf) 
