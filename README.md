@@ -25,7 +25,7 @@
  
  - DC Lab [Experiment - 6](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%206/AMEY_B-50_DCL_EXPERIMENT-6.pdf) | [Token Ring Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%206/TokenRing.java)
  
- - DC Lab [Experiment - 7](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/ChandyMisraHaas%20(Deadlock).py) - Deadlock | [Chandy-Misra-Haas Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock
+ - DC Lab [Experiment - 7](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/ChandyMisraHaas%20(Deadlock).py) - Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | [Chandy-Misra-Haas Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-no-deadlock)
 
 
 ## Quizzes 
