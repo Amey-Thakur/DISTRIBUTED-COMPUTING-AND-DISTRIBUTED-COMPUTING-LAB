@@ -9,6 +9,11 @@
 
 ---
 
+## Assignments
+
+ - DC [Assignment - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf)
+
+
 ## Experiments 
  
  >Distributed Computing Lab
@@ -44,3 +49,4 @@
  - [DC Module - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_2-Communication.pdf)
  
  - [DC Module - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_3-Synchronization.pdf) 
+
