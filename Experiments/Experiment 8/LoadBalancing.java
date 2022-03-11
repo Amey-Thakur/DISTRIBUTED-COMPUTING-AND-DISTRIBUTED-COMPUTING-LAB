@@ -1,5 +1,5 @@
 import java.util.*;
-public class Example {
+public class LoadBalancing {
 public static int l1;
 public static int l2;
 public static int n;
@@ -27,9 +27,9 @@ class Runnable1 implements Runnable{
 public void run(){
 System.out.println();
 int limit1,total1,rem1;
-limit1=Example.l1;
-total1=Example.n;
-rem1=Example.r1;
+limit1=LoadBalancing.l1;
+total1=LoadBalancing.n;
+rem1=LoadBalancing.r1;
 System.out.println("processor 1 (limit="+limit1+"):");
 if(total1==0)
 {
@@ -55,7 +55,7 @@ rem1=total1-limit1;
 System.out.println(+rem1+ " will be forwarded to next processor");
 }
 }
-Example.r1=rem1;
+LoadBalancing.r1=rem1;
 }
 }
 class Runnable2 implements Runnable{
@@ -63,10 +63,10 @@ public void run(){
 try{Thread.sleep(5000);}catch(InterruptedException e){System.out.println(e);}
 System.out.println();
 int limit2,total2,rem2,limitp1;
-limit2=Example.l2;
-total2=Example.n;
-rem2=Example.r1;
-limitp1=Example.l1;
+limit2=LoadBalancing.l2;
+total2=LoadBalancing.n;
+rem2=LoadBalancing.r1;
+limitp1=LoadBalancing.l1;
 System.out.println("processor 2 (limit="+limit2+"):");
 if(rem2==0)
 {
