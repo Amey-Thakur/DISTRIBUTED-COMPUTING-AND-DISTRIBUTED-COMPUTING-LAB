@@ -32,7 +32,7 @@
  
  - DC Lab [Experiment - 7](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/ChandyMisraHaas%20(Deadlock).py) - Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | [Chandy-Misra-Haas Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-no-deadlock)
  
- - DC Lab [Experiment - 8]() | [Load Balancing](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%208/Example.java)
+ - DC Lab [Experiment - 8]() | [Load Balancing](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%208/LoadBalancing.java)
 
 
 ## Quizzes 
