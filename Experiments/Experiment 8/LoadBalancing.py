@@ -1,4 +1,3 @@
-
 import threading
 import time
 
@@ -68,7 +67,6 @@ def run2():
             print(f"{n} processes are executed")
             rem = n - (l1 -l2)
             print(f"{rem} will be forwarded to next processor")
-
 
 
 def run():
