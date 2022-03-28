@@ -45,7 +45,7 @@
  
  - DC [Quiz - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/DS_3_FH_22%5Bco3%5D.pdf)
 
- - DC [Quiz - 4](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf)
+ - DC [Quiz - 4, 5 & 6](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf)
 
 
 ## IAT - 1
@@ -57,11 +57,4 @@
  - [DC Module - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_2-Communication.pdf)
  
  - [DC Module - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_3-Synchronization.pdf) 
-
-
-
-
-
-
-
 
