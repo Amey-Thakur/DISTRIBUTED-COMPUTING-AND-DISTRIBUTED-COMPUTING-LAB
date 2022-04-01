@@ -37,6 +37,8 @@
  - DC Lab [Experiment - 8](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%208/AMEY_B-50_DCL_EXPERIMENT-8.pdf) | JAVA - [Load Balancing](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%208/LoadBalancing.java) | PYTHON - [Load Balancing](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%208/LoadBalancing.py) - [Kaggle](https://www.kaggle.com/ameythakur20/load-balancing)
  
  - DC Lab [Experiment - 9](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%209/AMEY_B-50_DCL_EXPERIMENT-9.pdf) 
+ 
+ - DC Lab [Experiment - 10](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/Name_Resolution.ipynb) | [RPCServer](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/RpcServer.py) | [RPCClient](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/Rpcclient.py) | [Test File](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
 
 
 ## Quizzes 
