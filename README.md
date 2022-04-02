@@ -14,6 +14,8 @@
  - DC [Assignment - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf)
  
  - DC [Assignment - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf)
+ 
+ - DC [Assignment - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf)
 
 
 ## Experiments 
