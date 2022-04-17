@@ -73,6 +73,13 @@
  
  - [DC Module - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_3-Synchronization.pdf) 
  
+ 
+## IAT - 2
+
+ - [Question Paper]() - IAT-2
+ 
+ - [DC Question Bank](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-2/DC_UT_2_QB.pdf)
+
 
 ## Exit Survey
 
