@@ -76,9 +76,11 @@
  
 ## IAT - 2
 
- - [Question Paper]() - IAT-2
+ - [Question Paper](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-2/DC_IAT-2_Question_Paper.pdf) - IAT-2
  
  - [DC Question Bank](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-2/DC_UT_2_QB.pdf)
+ 
+ - [IAT-2 Question Bank](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-2/DC_QB.pdf)
 
 
 ## Exit Survey
