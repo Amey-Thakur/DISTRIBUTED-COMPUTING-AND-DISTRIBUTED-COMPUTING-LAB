@@ -9,6 +9,17 @@
 
 ---
 
+## THE WALL
+
+ >**[MEGA SATISH](https://github.com/msatmod) - AUTHOR**
+ 
+ - DC [Module - 4](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/THE%20WALL/DC_Module_4.pdf)
+
+ - DC [Module - 5](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/THE%20WALL/DC_Module_5.pdf)
+ 
+ - DC [Module - 6](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/THE%20WALL/DC_Module_6.pdf)
+ 
+
 ## Assignments
 
  - DC [Assignment - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf)
