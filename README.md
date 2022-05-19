@@ -83,6 +83,17 @@
  - [IAT-2 Question Bank](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-2/DC_QB.pdf)
 
 
+## Semester Exam
+
+ - [Question Paper]()
+ 
+ - [Question Bank]()
+ 
+ - [Question Bank MCQs](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Semester%20Exam/DC_QB_Answers.pdf)
+ 
+ - [Timetable](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Semester%20Exam/Semester%208%20Timetable.pdf)
+
+
 ## Exit Survey
 
  - DC Course & Laboratory [Exit Survey](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Exit%20Survey/Distributed%20Computing%20Exit%20Survey.pdf)
