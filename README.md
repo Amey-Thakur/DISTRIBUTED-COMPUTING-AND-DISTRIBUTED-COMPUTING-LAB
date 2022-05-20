@@ -96,7 +96,7 @@
 
 ## Semester Exam
 
- - [Question Paper]()
+ - [Question Paper](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Semester%20Exam/DC_Question_Paper.pdf)
  
  - [Question Bank](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Semester%20Exam/DC_Question_Bank.pdf)
  
