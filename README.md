@@ -118,3 +118,5 @@
  
  - DC [Submission Report](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Submission%20Report/AMEY_B-50_DC_SUBMISSION_REPORT.pdf)
 
+ - Semester 8 [Submission Report](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Submission%20Report/Amey_B-50_Submission_Report.pdf)
+
