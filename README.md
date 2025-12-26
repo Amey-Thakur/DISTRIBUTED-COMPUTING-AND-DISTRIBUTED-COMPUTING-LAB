@@ -25,36 +25,36 @@
 
 ## Assignments
 
- - DC [Assignment - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf)
+ - DC [Assignment - 1](Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf)
  
- - DC [Assignment - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf)
+ - DC [Assignment - 2](Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf)
  
- - DC [Assignment - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf)
+ - DC [Assignment - 3](Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf)
 
 
 ## Experiments 
  
  >Distributed Computing Lab
  
- - DC Lab [Experiment - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%201/AMEY_B-50_DCL_EXPERIMENT-1.pdf)
+   - DC Lab [Experiment - 1](Experiments/Experiment%201/AMEY_B-50_DCL_EXPERIMENT-1.pdf)
  
- - DC Lab [Experiment - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%202/AMEY_B-50_DCL_EXPERIMENT-2.pdf) | Socket Programming - [Server](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%202/server.py) & [Client](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%202/client.py) | Kaggle - [Chat Application - Socket Programming](https://www.kaggle.com/ameythakur20/chat-application-socket-programming)
+  - DC Lab [Experiment - 2](Experiments/Experiment%202/AMEY_B-50_DCL_EXPERIMENT-2.pdf) | Socket Programming - [Server](Experiments/Experiment%202/server.py) & [Client](Experiments/Experiment%202/client.py) | Kaggle - [Chat Application - Socket Programming](https://www.kaggle.com/ameythakur20/chat-application-socket-programming)
  
- - DC Lab [Experiment - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%203/AMEY_B-50_DCL_EXPERIMENT-3.pdf) | RMI/Pyro4 - [Server](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%203/server.py) & [Client](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%203/client.py) | Kaggle - [Calculator Application using RMI](https://www.kaggle.com/ameythakur20/calculator-application-using-rmi)
+  - DC Lab [Experiment - 3](Experiments/Experiment%203/AMEY_B-50_DCL_EXPERIMENT-3.pdf) | RMI/Pyro4 - [Server](Experiments/Experiment%203/server.py) & [Client](Experiments/Experiment%203/client.py) | Kaggle - [Calculator Application using RMI](https://www.kaggle.com/ameythakur20/calculator-application-using-rmi)
  
- - DC Lab [Experiment - 4](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%204/AMEY_B-50_DCL_EXPERIMENT-4.pdf) | Lamport's Logical Clock - [LCS](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%204/LCS.py) & [LCS-Connorwstein](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%204/LCS-Connorwstein.py) | Kaggle - [LCS](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs) & [LCS-Connorwstein](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs-connorwstein)
+  - DC Lab [Experiment - 4](Experiments/Experiment%204/AMEY_B-50_DCL_EXPERIMENT-4.pdf) | Lamport's Logical Clock - [LCS](Experiments/Experiment%204/LCS.py) & [LCS-Connorwstein](Experiments/Experiment%204/LCS-Connorwstein.py) | Kaggle - [LCS](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs) & [LCS-Connorwstein](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs-connorwstein)
  
- - DC Lab [Experiment - 5](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%205/AMEY_B-50_DCL_EXPERIMENT-5.pdf) | [Bully Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%205/Bully.java)
+  - DC Lab [Experiment - 5](Experiments/Experiment%205/AMEY_B-50_DCL_EXPERIMENT-5.pdf) | [Bully Algorithm](Experiments/Experiment%205/Bully.java)
  
- - DC Lab [Experiment - 6](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%206/AMEY_B-50_DCL_EXPERIMENT-6.pdf) | [Token Ring Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%206/TokenRing.java)
+  - DC Lab [Experiment - 6](Experiments/Experiment%206/AMEY_B-50_DCL_EXPERIMENT-6.pdf) | [Token Ring Algorithm](Experiments/Experiment%206/TokenRing.java)
  
- - DC Lab [Experiment - 7](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/ChandyMisraHaas%20(Deadlock).py) - Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | [Chandy-Misra-Haas Algorithm](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%207/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-no-deadlock)
+  - DC Lab [Experiment - 7](Experiments/Experiment%207/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](Experiments/Experiment%207/ChandyMisraHaas%20(Deadlock).py) - Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | [Chandy-Misra-Haas Algorithm](Experiments/Experiment%207/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-no-deadlock)
  
- - DC Lab [Experiment - 8](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%208/AMEY_B-50_DCL_EXPERIMENT-8.pdf) | JAVA - [Load Balancing](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%208/LoadBalancing.java) | PYTHON - [Load Balancing](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%208/LoadBalancing.py) - [Kaggle](https://www.kaggle.com/ameythakur20/load-balancing)
+  - DC Lab [Experiment - 8](Experiments/Experiment%208/AMEY_B-50_DCL_EXPERIMENT-8.pdf) | JAVA - [Load Balancing](Experiments/Experiment%208/LoadBalancing.java) | PYTHON - [Load Balancing](Experiments/Experiment%208/LoadBalancing.py) - [Kaggle](https://www.kaggle.com/ameythakur20/load-balancing)
  
- - DC Lab [Experiment - 9](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%209/AMEY_B-50_DCL_EXPERIMENT-9.pdf) 
+  - DC Lab [Experiment - 9](Experiments/Experiment%209/AMEY_B-50_DCL_EXPERIMENT-9.pdf) 
  
- - DC Lab [Experiment - 10](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/Name_Resolution.ipynb) | [RPCServer](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/RpcServer.py) | [RPCClient](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/Rpcclient.py) | [Test File](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Experiments/Experiment%2010/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
+  - DC Lab [Experiment - 10](Experiments/Experiment%2010/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](Experiments/Experiment%2010/Name_Resolution.ipynb) | [RPCServer](Experiments/Experiment%2010/RpcServer.py) | [RPCClient](Experiments/Experiment%2010/Rpcclient.py) | [Test File](Experiments/Experiment%2010/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
 
 
 ## Research Paper Presentation
@@ -132,6 +132,6 @@ This repository and all linked academic content are made available under the **C
 
 ---
 
-<p align="center"> <b> 👉🏻 Subject as a part of the 8th Semester of Engineering @ University of Mumbai 👈🏻 <b> </p>
+<p align="center"> <b> 👉🏻 Subject as a part of the 8th Semester of Engineering @ University of Mumbai 👈🏻 </b> </p>
  
-<p align="center"><a href='https://github.com/Amey-Thakur/COMPUTER-ENGINEERING', style='color: greenyellow;'> ✌🏻 Back To Engineering ✌🏻</p>
+<p align="center"><a href='https://github.com/Amey-Thakur/COMPUTER-ENGINEERING', style='color: greenyellow;'> ✌🏻 Back To Engineering ✌🏻</a></p>
