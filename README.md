@@ -14,13 +14,44 @@
 
 ## THE WALL
 
- >**[MEGA SATISH](https://github.com/msatmod) - AUTHOR**
- 
- - DC [Module - 4](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/THE%20WALL/DC_Module_4.pdf)
+<div align="center">
 
- - DC [Module - 5](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/THE%20WALL/DC_Module_5.pdf)
- 
- - DC [Module - 6](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/THE%20WALL/DC_Module_6.pdf)
+**Collaborative Study Notes by Amey & Mega**
+
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/Amey-Thakur">
+<img src="https://github.com/Amey-Thakur.png" alt="Amey Thakur" width="150" height="150"/><br/>
+<b>Amey Thakur</b>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/msatmod">
+<img src="THE%20WALL/Mega/Mega.png" alt="Mega Satish" width="150" height="150"/><br/>
+<b>Mega Satish</b>
+</a>
+</td>
+</tr>
+</table>
+
+</div>
+
+> [!IMPORTANT]
+> 💝 **Special Thanks**: A heartfelt thank you to Mega for her constant support, patience, and clarity throughout this journey. Learning alongside her made a real difference, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
+
+### The Wall - Notes Authored by [MEGA SATISH](https://github.com/msatmod)
+
+Comprehensive module-wise notes curated by Mega Satish:
+
+| Module | Resource | Topics Covered |
+|:---:|:---|:---|
+| 4 | [DC Module - 4](THE%20WALL/DC_Module_4.pdf) | Consistency and Replication |
+| 5 | [DC Module - 5](THE%20WALL/DC_Module_5.pdf) | Fault Tolerance and Recovery |
+| 6 | [DC Module - 6](THE%20WALL/DC_Module_6.pdf) | Distributed File Systems and Security |
+
+> [!NOTE]
+> **COVID-19 Impact**: This coursework was completed during the COVID-19 pandemic in 2022. Due to the nationwide lockdown and the sudden transition to online learning, several planned laboratory sessions and collaborative note-taking activities could not be carried out as originally intended. Despite these challenges, efforts were made to adapt and preserve as much work as possible.
  
 
 ## Assignments
