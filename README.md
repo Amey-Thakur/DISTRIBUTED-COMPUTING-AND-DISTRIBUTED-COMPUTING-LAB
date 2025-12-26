@@ -6,9 +6,9 @@
 
 ---
  
- - [X] **[Syllabus](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/MU%20SEM%20VIII%20SYLLABUS.pdf)**
+ - [X] [Syllabus](MU%20SEM%20VIII%20SYLLABUS.pdf)
  
- - [X] **DC - [Reference Books](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/tree/main/Reference%20Books)**
+ - [X] DC - [Reference Books](Reference%20Books)
 
 ---
 
@@ -61,67 +61,67 @@
 
  >**Topic: A Comparative Study on Distributed File Systems**
 
- - [Research Paper](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/RPP/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
+ - [Research Paper](RPP/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
  
- - [Presentation](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/RPP/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf)
+ - [Presentation](RPP/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf)
 
 
 ## Quizzes 
  
- - DC [Quiz - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/DC_1_FH_22%5Bco1%5D.pdf)
+ - DC [Quiz - 1](Quizzes/DC_1_FH_22%5Bco1%5D.pdf)
  
- - DC [Quiz - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/DS_2_FH_22%5Bco2%5D.pdf)
+ - DC [Quiz - 2](Quizzes/DS_2_FH_22%5Bco2%5D.pdf)
  
- - DC [Quiz - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/DS_3_FH_22%5Bco3%5D.pdf)
+ - DC [Quiz - 3](Quizzes/DS_3_FH_22%5Bco3%5D.pdf)
 
- - DC [Quiz - 4, 5 & 6](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf)
+ - DC [Quiz - 4, 5 & 6](Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf)
 
 
 ## IAT - 1
 
- - [Question Paper](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC%20IAT-1%20Question%20Paper.pdf) - IAT-1
+ - [Question Paper](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) - IAT-1
  
- - [DC Module - 1](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf)
+ - [DC Module - 1](IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf)
  
- - [DC Module - 2](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_2-Communication.pdf)
+ - [DC Module - 2](IAT-1/DC_Module_2-Communication.pdf)
  
- - [DC Module - 3](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-1/DC_Module_3-Synchronization.pdf) 
+ - [DC Module - 3](IAT-1/DC_Module_3-Synchronization.pdf) 
  
  
 ## IAT - 2
 
- - [Question Paper](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-2/DC_IAT-2_Question_Paper.pdf) - IAT-2
+ - [Question Paper](IAT-2/DC_IAT-2_Question_Paper.pdf) - IAT-2
  
- - [DC Question Bank](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-2/DC_UT_2_QB.pdf)
+ - [DC Question Bank](IAT-2/DC_UT_2_QB.pdf)
  
- - [IAT-2 Question Bank](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/IAT-2/DC_QB.pdf)
+ - [IAT-2 Question Bank](IAT-2/DC_QB.pdf)
 
 
 ## Semester Exam
 
- - [Question Paper](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Semester%20Exam/DC_Question_Paper.pdf)
+ - [Question Paper](Semester%20Exam/DC_Question_Paper.pdf)
  
- - [Question Bank](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Semester%20Exam/DC_Question_Bank.pdf)
+ - [Question Bank](Semester%20Exam/DC_Question_Bank.pdf)
  
- - [Question Bank MCQs](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Semester%20Exam/DC_QB_SOLVED.pdf)
+ - [Question Bank MCQs](Semester%20Exam/DC_QB_SOLVED.pdf)
  
- - [Timetable](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Semester%20Exam/Semester%208%20Timetable.pdf)
+ - [Timetable](Semester%20Exam/Semester%208%20Timetable.pdf)
 
 
 ## Exit Survey
 
- - DC Course & Laboratory [Exit Survey](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Exit%20Survey/Distributed%20Computing%20Exit%20Survey.pdf)
+ - DC Course & Laboratory [Exit Survey](Exit%20Survey/Distributed%20Computing%20Exit%20Survey.pdf)
 
 
 ## Submission Report
 
- - DC [Theory Report](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Submission%20Report/Report_Viewer%20%5BTheory%5D.pdf)
+ - DC [Theory Report](Submission%20Report/Report_Viewer%20%5BTheory%5D.pdf)
  
- - DC [Laboratory Report](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Submission%20Report/Report_Viewer%20%5BLaboratory%5D.pdf)
+ - DC [Laboratory Report](Submission%20Report/Report_Viewer%20%5BLaboratory%5D.pdf)
  
- - DC [Submission Report](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Submission%20Report/AMEY_B-50_DC_SUBMISSION_REPORT.pdf)
+ - DC [Submission Report](Submission%20Report/AMEY_B-50_DC_SUBMISSION_REPORT.pdf)
 
- - Semester 8 [Submission Report](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/Submission%20Report/Amey_B-50_Submission_Report.pdf)
+ - Semester 8 [Submission Report](Submission%20Report/Amey_B-50_Submission_Report.pdf)
 
 ## License
 
