@@ -2,6 +2,8 @@
 
  👍🏻 CSC802: DC & CSL802: DC LAB [SEMESTER VIII]
 
+ [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+
 ---
  
  - [X] **[Syllabus](https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/blob/main/MU%20SEM%20VIII%20SYLLABUS.pdf)**
