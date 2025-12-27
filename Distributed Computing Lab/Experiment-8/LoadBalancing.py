@@ -1,81 +1,104 @@
+# Name: Amey Mahendra Thakur
+# Course: Distributed Computing Lab (CSL802)
+# Roll No: 50 | Batch: B3
+# Date of Experiment: March 11, 2022
+# Repository: https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB
+# Description: Experiment 8 - Implementation of a Static Load Balancing Algorithm using multithreading in Python.
+
 import threading
 import time
 
-r1 = 0
+# Global variables for cross-thread communication
+shared_remainder = 0
+lock = threading.Lock()
 
-print("We assume two processers")
-
-l1 = int(input("Enter the limit of processor one: "))
-l2 = int(input("Enter the limit of processor two: "))
-n = int(input("Enter the number of processes: "))
-
-n = n + r1
-
-
-def run1():
+def processor_1_execution(limit, total_tasks):
+    """
+    Simulates the first processor's execution logic.
+    Identifies overload and calculates tasks to be migrated.
+    """
+    global shared_remainder
     
-    print()
-    print(f"Processor 1 (limit = {l1}):")
-
-    if(n == 0):
-        print("No processes are remaining")
+    print(f"\n[PROCESSOR 1] Status (Capacity: {limit})")
     
+    if total_tasks == 0:
+        print("  -> No processes available for execution.")
+        with lock:
+            shared_remainder = 0
+        return
+
+    if limit > total_tasks:
+        print("  -> State: Underloaded")
+        print(f"  -> Executed: {total_tasks} processes.")
+        rem = 0
+    elif limit == total_tasks:
+        print("  -> State: Normal Load")
+        print(f"  -> Executed: {total_tasks} processes.")
+        print("  -> Result: No tasks forwarded.")
+        rem = 0
     else:
-        
-        if(l1 > n):
-            print("Underloaded processor")
-            print(f"{n} processes are executed")
-        
-        elif (l1 == n):
-            print("Normal processor")
-            print(f"{n} processes are executed")
-            print("No need to forward any process to next processor.")
+        print("  -> State: OVERLOADED")
+        print(f"  -> Executed: {limit} processes (Max Capacity).")
+        rem = total_tasks - limit
+        print(f"  -> Overflow: {rem} processes forwarded to Processor 2.")
 
-        elif(l1 < n):
-            print("Overloaded processor")
-            print(f"{n} processes are executed")
-            rem = n - l1
-            print(f"{rem} will be forwarded to next processor")
+    with lock:
+        shared_remainder = rem
 
-    global r1 
-    r1 = rem
-
-
-def run2():
+def processor_2_execution(limit):
+    """
+    Simulates the second processor's execution logic.
+    Executes overflow tasks received from Processor 1.
+    """
+    # Delay to ensure Processor 1 finishes distribution
+    time.sleep(2)
     
-    time.sleep(5)
-
-    print()
-    print(f"Processor 2 (limit = {l2}):")
-
-    if(r1 == 0):
-        print("No processes are remaining")
+    print(f"\n[PROCESSOR 2] Status (Capacity: {limit})")
     
+    with lock:
+        workload = shared_remainder
+
+    if workload == 0:
+        print("  -> No overflow tasks received from Processor 1.")
     else:
-        
-        if(l2 > r1):
-            print("Underloaded processor")
-            print(f"{r1} processes are executed")
-        
-        elif (l2 == r1):
-            print("Normal processor")
-            print(f"{r1} processes are executed")
-            print("No need to forward any process to next processor.")
+        if limit > workload:
+            print("  -> State: Underloaded")
+            print(f"  -> Executed: {workload} processes.")
+        elif limit == workload:
+            print("  -> State: Normal Load")
+            print(f"  -> Executed: {workload} processes.")
+        else:
+            print("  -> State: OVERLOADED")
+            print(f"  -> Executed: {limit} processes (Max Capacity).")
+            final_rem = workload - limit
+            print(f"  -> Critical: {final_rem} processes still queued (System Overloaded).")
 
-        elif(l1 < r1):
-            print("Overloaded processor")
-            print(f"{n} processes are executed")
-            rem = n - (l1 -l2)
-            print(f"{rem} will be forwarded to next processor")
+def main():
+    print("="*60)
+    print(" STATIC LOAD BALANCING SIMULATOR (PYTHON) ")
+    print("="*60)
 
+    try:
+        l1 = int(input("Enter execution limit for Processor 1: "))
+        l2 = int(input("Enter execution limit for Processor 2: "))
+        n = int(input("Enter total number of processes: "))
 
-def run():
-    
-    t1 = threading.Thread(run1())
-    t2 = threading.Thread(run2())
+        # Creating threads for distributed processing
+        t1 = threading.Thread(target=processor_1_execution, args=(l1, n))
+        t2 = threading.Thread(target=processor_2_execution, args=(l2,))
 
-    t1.start()
-    t2.start()
+        # Starting parallel simulation
+        t1.start()
+        t2.start()
 
+        # Waiting for completion
+        t1.join()
+        t2.join()
 
-run()
+    except ValueError:
+        print("[!] Input Error: Please enter numerical values for limits and processes.")
+
+    print("\n" + "="*60)
+
+if __name__ == "__main__":
+    main()
