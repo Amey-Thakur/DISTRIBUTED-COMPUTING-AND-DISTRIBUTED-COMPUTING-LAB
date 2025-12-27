@@ -69,23 +69,23 @@ Comprehensive module-wise notes curated by Mega Satish:
  
    - DC Lab [Experiment-1](Distributed%20Computing%20Lab/Experiment-1/AMEY_B-50_DCL_EXPERIMENT-1.pdf)
  
-  - DC Lab [Experiment-2](Distributed Computing Lab/Experiment-2/AMEY_B-50_DCL_EXPERIMENT-2.pdf) | Socket Programming - [Server](Distributed Computing Lab/Experiment-2/server.py) & [Client](Distributed Computing Lab/Experiment-2/client.py) | Kaggle - [Chat Application - Socket Programming](https://www.kaggle.com/ameythakur20/chat-application-socket-programming)
+  - DC Lab [Experiment-2](Distributed%20Computing%20Lab/Experiment-2/AMEY_B-50_DCL_EXPERIMENT-2.pdf) | Socket Programming - [Server](Distributed%20Computing%20Lab/Experiment-2/server.py) & [Client](Distributed%20Computing%20Lab/Experiment-2/client.py) | Kaggle - [Chat Application - Socket Programming](https://www.kaggle.com/ameythakur20/chat-application-socket-programming)
  
-  - DC Lab [Experiment-3](Distributed Computing Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) | RMI/Pyro4 - [Server](Distributed Computing Lab/Experiment-3/server.py) & [Client](Distributed Computing Lab/Experiment-3/client.py) | Kaggle - [Calculator Application using RMI](https://www.kaggle.com/ameythakur20/calculator-application-using-rmi)
+  - DC Lab [Experiment-3](Distributed%20Computing%20Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) | RMI/Pyro4 - [Server](Distributed%20Computing%20Lab/Experiment-3/server.py) & [Client](Distributed%20Computing%20Lab/Experiment-3/client.py) | Kaggle - [Calculator Application using RMI](https://www.kaggle.com/ameythakur20/calculator-application-using-rmi)
  
-  - DC Lab [Experiment-4](Distributed Computing Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) | Lamport's Logical Clock - [LCS](Distributed Computing Lab/Experiment-4/LCS.py) & [LCS-Connorwstein](Distributed Computing Lab/Experiment-4/LCS-Connorwstein.py) | Kaggle - [LCS](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs) & [LCS-Connorwstein](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs-connorwstein)
+  - DC Lab [Experiment-4](Distributed%20Computing%20Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) | Lamport's Logical Clock - [LCS](Distributed%20Computing%20Lab/Experiment-4/LCS.py) & [LCS-Connorwstein](Distributed%20Computing%20Lab/Experiment-4/LCS-Connorwstein.py) | Kaggle - [LCS](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs) & [LCS-Connorwstein](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs-connorwstein)
  
-  - DC Lab [Experiment-5](Distributed Computing Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) | [Bully Algorithm](Distributed Computing Lab/Experiment-5/Bully.java)
+  - DC Lab [Experiment-5](Distributed%20Computing%20Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) | [Bully Algorithm](Distributed%20Computing%20Lab/Experiment-5/Bully.java)
  
-  - DC Lab [Experiment-6](Distributed Computing Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) | [Token Ring Algorithm](Distributed Computing Lab/Experiment-6/TokenRing.java)
+  - DC Lab [Experiment-6](Distributed%20Computing%20Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) | [Token Ring Algorithm](Distributed%20Computing%20Lab/Experiment-6/TokenRing.java)
  
-  - DC Lab [Experiment-7](Distributed Computing Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](Distributed Computing Lab/Experiment-7/ChandyMisraHaas%20(Deadlock).py) - Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | [Chandy-Misra-Haas Algorithm](Distributed Computing Lab/Experiment-7/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-no-deadlock)
+  - DC Lab [Experiment-7](Distributed%20Computing%20Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(Deadlock).py) - Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | [Chandy-Misra-Haas Algorithm](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-no-deadlock)
  
-  - DC Lab [Experiment-8](Distributed Computing Lab/Experiment-8/AMEY_B-50_DCL_EXPERIMENT-8.pdf) | JAVA - [Load Balancing](Distributed Computing Lab/Experiment-8/LoadBalancing.java) | PYTHON - [Load Balancing](Distributed Computing Lab/Experiment-8/LoadBalancing.py) - [Kaggle](https://www.kaggle.com/ameythakur20/load-balancing)
+  - DC Lab [Experiment-8](Distributed%20Computing%20Lab/Experiment-8/AMEY_B-50_DCL_EXPERIMENT-8.pdf) | JAVA - [Load Balancing](Distributed%20Computing%20Lab/Experiment-8/LoadBalancing.java) | PYTHON - [Load Balancing](Distributed%20Computing%20Lab/Experiment-8/LoadBalancing.py) - [Kaggle](https://www.kaggle.com/ameythakur20/load-balancing)
  
-  - DC Lab [Experiment-9](Distributed Computing Lab/Experiment-9/AMEY_B-50_DCL_EXPERIMENT-9.pdf) 
+  - DC Lab [Experiment-9](Distributed%20Computing%20Lab/Experiment-9/AMEY_B-50_DCL_EXPERIMENT-9.pdf) 
  
-  - DC Lab [Experiment-10](Distributed Computing Lab/Experiment-10/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](Distributed Computing Lab/Experiment-10/Name_Resolution.ipynb) | [RPCServer](Distributed Computing Lab/Experiment-10/RpcServer.py) | [RPCClient](Distributed Computing Lab/Experiment-10/RpcClient.py) | [Test File](Distributed Computing Lab/Experiment-10/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
+  - DC Lab [Experiment-10](Distributed%20Computing%20Lab/Experiment-10/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](Distributed%20Computing%20Lab/Experiment-10/Name_Resolution.ipynb) | [RPCServer](Distributed%20Computing%20Lab/Experiment-10/RpcServer.py) | [RPCClient](Distributed%20Computing%20Lab/Experiment-10/RpcClient.py) | [Test File](Distributed%20Computing%20Lab/Experiment-10/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
 
 
 ## Research Paper Presentation
