@@ -17,7 +17,7 @@
 
   ---
 
-  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Experiment-1](#experiment-1-nos-vs-dos-comparison) &nbsp;·&nbsp; [Experiment-2](#experiment-2-socket-programming-chat-app) &nbsp;·&nbsp; [Experiment-3](#experiment-3-rmi--rpc-implementation) &nbsp;·&nbsp; [Experiment-4](#experiment-4-logical-clock-synchronization) &nbsp;·&nbsp; [Experiment-5](#experiment-5-bully-election-algorithm) &nbsp;·&nbsp; [Experiment-6](#experiment-6-token-ring-mutual-exclusion) &nbsp;·&nbsp; [Experiment-7](#experiment-7-chandy-misra-haas-deadlock-detection) &nbsp;·&nbsp; [Experiment-8](#experiment-8-distributed-load-balancing) &nbsp;·&nbsp; [Experiment-9](#experiment-9-distributed-file-systems-case-study) &nbsp;·&nbsp; [Experiment-10](#experiment-10-name-resolution--rpc)
+  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Experiment 1](#experiment-1-nos-vs-dos-comparison) &nbsp;·&nbsp; [Experiment 2](#experiment-2-socket-programming-chat-app) &nbsp;·&nbsp; [Experiment 3](#experiment-3-rmi--rpc-implementation) &nbsp;·&nbsp; [Experiment 4](#experiment-4-logical-clock-synchronization) &nbsp;·&nbsp; [Experiment 5](#experiment-5-bully-election-algorithm) &nbsp;·&nbsp; [Experiment 6](#experiment-6-token-ring-mutual-exclusion) &nbsp;·&nbsp; [Experiment 7](#experiment-7-chandy-misra-haas-deadlock-detection) &nbsp;·&nbsp; [Experiment 8](#experiment-8-distributed-load-balancing) &nbsp;·&nbsp; [Experiment 9](#experiment-9-distributed-file-systems-case-study) &nbsp;·&nbsp; [Experiment 10](#experiment-10-name-resolution--rpc)
 
 </div>
 
@@ -258,7 +258,7 @@ To Implement Name Resolution.
   <!-- Footer Navigation -->
   [↑ Back to Top](#distributed-computing-lab)
 
-  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Experiment-1](#experiment-1-nos-vs-dos-comparison) &nbsp;·&nbsp; [Experiment-2](#experiment-2-socket-programming-chat-app) &nbsp;·&nbsp; [Experiment-3](#experiment-3-rmi--rpc-implementation) &nbsp;·&nbsp; [Experiment-4](#experiment-4-logical-clock-synchronization) &nbsp;·&nbsp; [Experiment-5](#experiment-5-bully-election-algorithm) &nbsp;·&nbsp; [Experiment-6](#experiment-6-token-ring-mutual-exclusion) &nbsp;·&nbsp; [Experiment-7](#experiment-7-chandy-misra-haas-deadlock-detection) &nbsp;·&nbsp; [Experiment-8](#experiment-8-distributed-load-balancing) &nbsp;·&nbsp; [Experiment-9](#experiment-9-distributed-file-systems-case-study) &nbsp;·&nbsp; [Experiment-10](#experiment-10-name-resolution--rpc)
+  [How to Use](#how-to-use) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Experiment 1](#experiment-1-nos-vs-dos-comparison) &nbsp;·&nbsp; [Experiment 2](#experiment-2-socket-programming-chat-app) &nbsp;·&nbsp; [Experiment 3](#experiment-3-rmi--rpc-implementation) &nbsp;·&nbsp; [Experiment 4](#experiment-4-logical-clock-synchronization) &nbsp;·&nbsp; [Experiment 5](#experiment-5-bully-election-algorithm) &nbsp;·&nbsp; [Experiment 6](#experiment-6-token-ring-mutual-exclusion) &nbsp;·&nbsp; [Experiment 7](#experiment-7-chandy-misra-haas-deadlock-detection) &nbsp;·&nbsp; [Experiment 8](#experiment-8-distributed-load-balancing) &nbsp;·&nbsp; [Experiment 9](#experiment-9-distributed-file-systems-case-study) &nbsp;·&nbsp; [Experiment 10](#experiment-10-name-resolution--rpc)
 
   <br>
 
