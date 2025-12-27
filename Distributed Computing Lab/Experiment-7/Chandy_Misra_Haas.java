@@ -9,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class ChandyMisraHaas {
+public class Chandy_Misra_Haas {
     private static int numProcesses = 5;
     private static int[][] waitMatrix;
     private static boolean deadlockDetected = false;
