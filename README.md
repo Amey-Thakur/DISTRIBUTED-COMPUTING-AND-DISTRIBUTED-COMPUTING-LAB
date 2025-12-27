@@ -368,7 +368,7 @@ Internal assessment evaluations conducted during the course:
 <!-- =========================================================================================
                                      SEMESTER EXAM SECTION
      ========================================================================================= -->
-## Semester Exam
+## Semester Exam · May 20, 2022
 
 Final university examination materials and preparation banks:
 
