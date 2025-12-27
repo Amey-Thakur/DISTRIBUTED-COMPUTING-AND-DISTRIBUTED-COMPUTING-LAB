@@ -324,12 +324,12 @@ This Research Paper Presentation (RPP) provides a detailed comparative analysis 
 
 ### Resources
 
-| # | Resource | Description | Date | Marks | Link |
-|:-:|:---|:---|:-:|:-:|:-:|
-| 1 | **Research Paper** | Scholarly comparative analysis | March 18, 2022 | **07/10** | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf) |
-| 2 | **Presentation** | Visual deck of the study (PDF) | March 18, 2022 | **07/10** | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf) |
-| 3 | **Source Archive** | Complete project documentation (ZIP) | March 18, 2022 | - | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP.zip) |
-| 4 | **ResearchGate** | Case study available on ResearchGate | September 2021 | - | [View](https://doi.org/10.13140/RG.2.2.31450.82887) |
+| # | Resource | Description | Date | Link |
+|:-:|:---|:---|:-:|:-:|
+| 1 | **Research Paper** | Scholarly comparative analysis | April 2022 | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf) |
+| 2 | **Presentation** | Visual deck of the study (PDF) | April 2022 | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf) |
+| 3 | **Source Archive** | Complete project documentation (ZIP) | April 2022 | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP.zip) |
+| 4 | **ResearchGate** | Case study available on ResearchGate | September 2021 | [View](https://doi.org/10.13140/RG.2.2.31450.82887) |
 
 ---
 
