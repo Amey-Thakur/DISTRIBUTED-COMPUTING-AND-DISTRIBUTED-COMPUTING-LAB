@@ -247,10 +247,8 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `ChandyMisraHaasDeadlock.java` | Termination | CMH Edge-Chasing (Deadlock scenario - Java) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaasDeadlock.java) |
-| `ChandyMisraHaasNoDeadlock.java`| Termination | CMH Edge-Chasing (No-Deadlock scenario - Java) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaasNoDeadlock.java) |
-| `Deadlock.py` | Termination | CMH Edge-Chasing (Deadlock scenario - Python) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(Deadlock).py) |
-| `NoDeadlock.py`| Termination | CMH Edge-Chasing (No-Deadlock scenario - Python) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(No%20Deadlock).py) |
+| `ChandyMisraHaas.java` | Termination | Chandi-Misra-Haas Implementation (Java) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas.java) |
+| `ChandyMisraHaas.py` | Termination | Chandi-Misra-Haas Implementation (Python) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas.py) |
 </details>
 
 <details>
