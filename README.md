@@ -151,12 +151,12 @@ Academic assignments for comprehensive learning and practice:
 
 Distributed Computing specific quizzes conducted during the course:
 
-| # | Quiz | Topics | Resource |
-|:-:|:---|:---|:-:|
-| 1 | [Quiz 1](Quizzes/DC_1_FH_22%5Bco1%5D.pdf) | Module - 1 Foundations | [View](Quizzes/DC_1_FH_22%5Bco1%5D.pdf) |
-| 2 | [Quiz 2](Quizzes/DC_2_FH_22%5Bco2%5D.pdf) | Module - 2 Communication | [View](Quizzes/DC_2_FH_22%5Bco2%5D.pdf) |
-| 3 | [Quiz 3](Quizzes/DC_3_FH_22%5Bco3%5D.pdf) | Module - 3 Synchronization | [View](Quizzes/DC_3_FH_22%5Bco3%5D.pdf) |
-| 4 | [Quiz 4, 5 & 6](Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf) | Module - 4 to 6 | [View](Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf) |
+| # | Quiz | Topics | Date | Marks |
+|:-:|:---|:---|:---:|:---:|
+| 1 | [Quiz 1](Quizzes/DC_1_FH_22%5Bco1%5D.pdf) | Module - 1: Foundations [CO1] | April 14, 2022 | 10/10 |
+| 2 | [Quiz 2](Quizzes/DC_2_FH_22%5Bco2%5D.pdf) | Module - 2: Communication [CO2] | March 2, 2022 | 10/10 |
+| 3 | [Quiz 3](Quizzes/DC_3_FH_22%5Bco3%5D.pdf) | Module - 3: Synchronization [CO3] | March 17, 2022 | 10/10 |
+| 4 | [Quiz 4, 5 & 6](Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf) | Module - 4 to 6 [CO4-CO6] | March 29, 2022 | 30/30 |
 
 ---
 
