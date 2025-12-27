@@ -10,7 +10,7 @@
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-public class TokenRing {
+public class Token_Ring {
     /**
      * The Token Ring algorithm ensures mutual exclusion by passing a 'token' 
      * around a logical ring of processes. Only the process holding the token 
