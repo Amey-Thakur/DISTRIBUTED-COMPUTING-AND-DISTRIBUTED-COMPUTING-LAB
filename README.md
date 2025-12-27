@@ -68,16 +68,28 @@ All materials in this repository were gathered, organized, and documented by me 
 
 This collection includes **comprehensive reference materials** covering all major topics:
 
-| # | Resource | Focus Area |
+| # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [DC Techmax](Reference%20Books/DC%20Techmax) | Module-wise curriculum guidance |
-| 2 | [1) Introduction to DS](Reference%20Books/1)%20Introduction%20to%20DS) | Foundations and Characterization of Distributed Systems |
-| 3 | [2) Communication](Reference%20Books/2)%20Communication) | RPC, RMI, and Message-oriented models |
-| 4 | [3) Synchronization](Reference%20Books/3)%20Synchronization) | Clocks and Coordination Algorithms |
-| 5 | [4) Resource and Process Management](Reference%20Books/4)%20Resource%20and%20Process%20Management) | Process management and Task assignment |
-| 6 | [5) Consistency, Replication, Fault Tolerance](Reference%20Books/5)%20Consistency,%20Replication,%20Fault%20Tolerance) | System resilience and Data consistency |
-| 7 | [6) Distributed File Systems and Name Services](Reference%20Books/6)%20Distributed%20File%20Systems%20and%20Name%20Services) | Naming and Storage architectures |
-| 8 | [Toppers Solution](Reference%20Books/Toppers%20solution%20DC.pdf) | Solved exams and top-scoring answers |
+| 1 | [1) Introduction to DS](Reference%20Books/1)%20Introduction%20to%20DS/Introduction.pdf) | Foundations and Characterization of Distributed Systems |
+| 2 | [2) Communication](Reference%20Books/2)%20Communication/IPC.pdf) | Remote Procedure Calls (RPC) and Inter-process Communication |
+| 3 | [3) Synchronization](Reference%20Books/3)%20Synchronization/Clock%20Synchronization.pdf) | Physical/Logical Clocks and Election Algorithms |
+| 4 | [4) Resource and Process Management](Reference%20Books/4)%20Resource%20and%20Process%20Management/Resource%20and%20Process%20Management.pdf) | Process management and Task assignment models |
+| 5 | [5) Consistency, Replication, Fault Tolerance](Reference%20Books/5)%20Consistency,%20Replication,%20Fault%20Tolerance/Module%205.pdf) | System resilience and Data consistency protocols |
+| 6 | [6) Distributed File Systems and Name Services](Reference%20Books/6)%20Distributed%20File%20Systems%20and%20Name%20Services/PDF-Distributed%20File%20Systems%20and%20Name%20Services.pdf) | Naming architectures and Storage systems |
+| 7 | [Distributed Systems Concepts & Design 5th Ed](Reference%20Books/Distributed%20Systems%20Concepts%20_%20Design%205th%20Ed%20Coulouris.pdf) | Standard Text Book (T2) by Coulouris et al. |
+| 8 | [Distributed Systems Principles and Paradigms 2nd Ed](Reference%20Books/Distributed%20Systems%20Principles%20and%20Paradigms%202nd%20Ed%20Tanenbaum.pdf) | Standard Text Book by Andrew Tanenbaum |
+| 9 | [Distributed Systems 3rd Preliminary Ed](Reference%20Books/mvsteen-distributed.systems.3rd.preliminary.version.3.01pre.2017.170215.pdf) | Modern Distributed Systems by van Steen & Tanenbaum |
+| 10 | [DC Techmax (Full Collection)](Reference%20Books/DC%20TechKnowledge.pdf) | Comprehensive TechKnowledge study material |
+| 11 | [DC Techmax (Module Index)](Reference%20Books/DC%20Techmax/DC%20index.pdf) | Techmax Chapter-wise structure and outcomes |
+| 12 | [DC Toppers Solutions](Reference%20Books/Toppers%20solution%20DC.pdf) | University solved questions and exam preparations |
+| 13 | [DC NOTES (Consolidated)](Reference%20Books/DC%20NOTES.pdf) | Comprehensive handwritten and compiled study notes |
+| 14 | [Distributed File System Study](Reference%20Books/DISTRIBUTED%20FILE%20SYSTEM.pdf) | Technical study on scale and consistency in DFS |
+| 15 | [Google Case Study](Reference%20Books/DC%20-%20Google%20Case%20Study.pdf) | Real-world Distributed Systems: The Google Case |
+| 16 | [Andrew File Systems (AFS)](Reference%20Books/DC%20-%20Andrew%20File%20Systems%20(AFS).pdf) | Case study on architectural scalability in AFS |
+| 17 | [Network File Systems (NFS)](Reference%20Books/DC%20-%20Network%20File%20Systems%20(NFS).pdf) | Detailed technical analysis of NFS protocols |
+| 18 | [X.500 Directory Service](Reference%20Books/DC%20-%20X.500%20Directory%20Service.pdf) | Global naming and directory service architecture |
+| 19 | [Distributed Computing VIVA](Reference%20Books/DC%20VIVA.pdf) | Frequently asked questions and concepts for VIVA |
+| 20 | [DC Manual Writeups](Reference%20Books/DCManual_writeups.pdf) | Practical implementation details and manual notes |
 
 ---
 
