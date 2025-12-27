@@ -338,25 +338,30 @@ This Research Paper Presentation (RPP) provides a detailed comparative analysis 
      ========================================================================================= -->
 ## Internal Assessment Test
 
-Internal evaluations conducted during the course:
+Internal assessment evaluations conducted during the course:
 
 ### IAT - 1
 
-| # | Resource | Description |
-|:-:|:---|:---|
-| 1 | [Question Paper](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) | IAT-1 Official Paper |
-| 2 | [Module - 1](IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf) | Introduction to DC notes |
-| 3 | [Module - 2](IAT-1/DC_Module_2-Communication.pdf) | Inter-process Communication notes |
-| 4 | [Module - 3](IAT-1/DC_Module_3-Synchronization.pdf)| Clock Synchronization notes |
+| # | Resource | Description | Marks |
+|:-:|:---|:---|:-:|
+| 1 | [Question Paper](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) | DC Internal Assessment Test 1 Question Paper | — |
 
 ### IAT - 2
 
+| # | Resource | Description | Marks |
+|:-:|:---|:---|:-:|
+| 1 | [Question Paper](IAT-2/DC_IAT-2_Question_Paper.pdf) | DC Internal Assessment Test 2 Question Paper | — |
+
+### Additional Resources:
+
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Question Paper](IAT-2/DC_IAT-2_Question_Paper.pdf) | IAT-2 Official Paper |
-| 2 | [Question Bank 1](IAT-2/DC_UT_2_QB.pdf) | Prep Bank Set 1 |
-| 3 | [Question Bank 2](IAT-2/DC_UT2_QB.pdf) | Prep Bank Set 2 |
-| 4 | [Exam QB](IAT-2/DC_QB.pdf) | Comprehensive Prep Bank |
+| 1 | [Module - 1](IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf) | Introduction to Distributed Computing |
+| 2 | [Module - 2](IAT-1/DC_Module_2-Communication.pdf) | Inter-process Communication |
+| 3 | [Module - 3](IAT-1/DC_Module_3-Synchronization.pdf) | Clock Synchronization |
+| 4 | [Question Bank 1](IAT-2/DC_UT_2_QB.pdf) | Prep Bank Set 1 |
+| 5 | [Question Bank 2](IAT-2/DC_UT2_QB.pdf) | Prep Bank Set 2 |
+| 6 | [Exam QB](IAT-2/DC_QB.pdf) | Comprehensive Prep Bank |
 
 ---
 
