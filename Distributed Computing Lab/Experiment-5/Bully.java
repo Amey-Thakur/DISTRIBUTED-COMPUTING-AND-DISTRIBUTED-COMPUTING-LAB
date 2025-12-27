@@ -1,58 +1,91 @@
-import java.util.*;
-import java.util.*;
-class Bully
-{
-    public static void main(String args[])
-    {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number of processes(starting with 0): ");
-        int p;
-        p=sc.nextInt();
-        int a[]=new int[p+1];
-        System.out.println("Enter the process number which fails:  ");
-        int f;
-        f=sc.nextInt();
-        int i;
-        for(i=0;i<=p;i++)
-        {
-            if (i!=f)
-            {
-                a[i]=1;
-            }
-            else
-            {
-                a[i]=0;
+/**
+ * Name: Amey Mahendra Thakur
+ * Course: Distributed Computing Lab (CSL802)
+ * Roll No: 50 | Batch: B3
+ * Date of Experiment: February 10, 2022
+ * Repository: https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB
+ * Description: Experiment 5 - Implementation of the Bully Algorithm for Leader Election in Distributed Systems.
+ */
+
+import java.util.Scanner;
+
+public class Bully {
+    /**
+     * The Bully Algorithm is used to elect a coordinator (leader) among a group 
+     * of processes. The process with the highest process ID is always chosen.
+     */
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("--- [BULLY ALGORITHM SIMULATOR] ---");
+        
+        // 1. Initialize process pool
+        System.out.print("[?] Enter the total number of processes: ");
+        int totalProcesses = scanner.nextInt();
+        
+        // Array to store active (1) or failed (0) status of processes
+        int[] processStatus = new int[totalProcesses];
+        
+        // 2. Define failure scenario
+        System.out.print("[?] Enter the process ID (0 to " + (totalProcesses - 1) + ") that has failed: ");
+        int failedProcess = scanner.nextInt();
+
+        // Populate initial process states
+        for (int i = 0; i < totalProcesses; i++) {
+            if (i == failedProcess) {
+                processStatus[i] = 0; // 0 indicates the process is offline/failed
+            } else {
+                processStatus[i] = 1; // 1 indicates the process is operational
             }
         }
-        System.out.println("Enter the process which starts election: ");
-        int e;
-        e=sc.nextInt();
-               
-        while(e<=p)
-        {
-            if(e==f)
-            {
-                e=e+1;
+
+        // 3. Initiate election
+        System.out.print("[?] Enter the process ID that detects failure and starts election: ");
+        int electionInitiator = scanner.nextInt();
+
+        System.out.println("\n[*] Election Process Started by Node " + electionInitiator + "...");
+
+        int currentProcess = electionInitiator;
+        int lastSuccessfulCoordinatorCandidate = -1;
+
+        // 4. Iterate through higher-ID processes to find the new coordinator
+        while (currentProcess < totalProcesses) {
+            
+            // Skip the failed process if it happens to be the one we are evaluating
+            if (currentProcess == failedProcess) {
+                currentProcess++;
                 continue;
             }
-                 
-            for(i=0;i<=p;i++)
-            {
 
-                if(e<i  && (e!=f || e>f))
-                {
-                    System.out.println("Election message is sent from "+e+ "to" +i);
+            boolean receivedOk = false;
+            System.out.println("\n[Node " + currentProcess + "]: Broadcasting ELECTION messages to nodes with higher IDs...");
+
+            // Send election messages to all processes with higher IDs
+            for (int j = currentProcess + 1; j < totalProcesses; j++) {
+                System.out.println("    -> Sending ELECTION message to Node " + j);
+                
+                // If a higher process is active, it sends an OK message back
+                if (processStatus[j] == 1) {
+                    System.out.println("    <- [OK] received from Node " + j);
+                    receivedOk = true;
                 }
             }
-            e=e+1;
-            for(i=0;i<=p;i++)
-            {
-                if((e<i)&&(i!=f))
-                {
-                    System.out.println("OK message is sent from "+i+"to"+e);
-                }
+
+            // If no higher active process responds with OK, this process becomes the winner/coordinator
+            if (!receivedOk) {
+                lastSuccessfulCoordinatorCandidate = currentProcess;
             }
+            
+            currentProcess++;
         }
-        System.out.println((e-2)+" is the coordinator");
+
+        // 5. Announce the result
+        System.out.println("\n" + "=".repeat(40));
+        System.out.println(" ELECTION RESULT: COORDINATOR IDENTIFIED ");
+        System.out.println("=".repeat(40));
+        System.out.println("[RESULT] Process " + lastSuccessfulCoordinatorCandidate + " is now the NEW COORDINATOR.");
+        System.out.println("=".repeat(40));
+
+        scanner.close();
     }
 }
