@@ -1,15 +1,27 @@
+# Name: Amey Mahendra Thakur
+# Course: Distributed Computing Lab (CSL802)
+# Roll No: 50 | Batch: B3
+# Date of Experiment: February 3, 2022
+# Repository: https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB
+# Description: Experiment 4 - Multi-threaded Implementation of Lamport's Distributed Mutual Exclusion Algorithm using Logical Clocks.
+
 import signal
 import sys
 import time
 import threading
 from queue import Queue
 
-initially_granted_proc = "A"
-procs = {"A", "B", "C"}
+# Global Configuration
+INITIALLY_GRANTED_PROC = "A"
+PROCESS_IDENTIFIERS = {"A", "B", "C"}
 resource_usage_counts = {"A": 0, "B": 0, "C": 0}
-message_queues = {"A" : Queue(), "B": Queue(), "C": Queue()}
+message_queues = {"A": Queue(), "B": Queue(), "C": Queue()}
 
-class Message(object):
+class Message:
+    """
+    Represents a communication packet in the distributed system.
+    Contains metadata for message type, logical timestamp, and routing information.
+    """
     def __init__(self, msg_type, timestamp, sender, receiver):
         self.msg_type = msg_type
         self.timestamp = timestamp
@@ -17,154 +29,173 @@ class Message(object):
         self.receiver = receiver
 
     def __repr__(self):
-        return "Message {} at {} from {} to {}".format(
-            self.msg_type, self.timestamp, 
-            self.sender, self.receiver)
+        return f"Message({self.msg_type}, TS:{self.timestamp}, From:{self.sender}, To:{self.receiver})"
 
 class Process(threading.Thread):
-
+    """
+    Simulates a discrete process in a distributed environment.
+    Uses Lamport's Logical Clock to manage priority in a shared resource request queue.
+    """
     def __init__(self, name, initially_granted, other_processes):
         super(Process, self).__init__()
         self.name = name
         self.has_resource = initially_granted == name
         self.other_processes = other_processes
-        self.lamport_clock = 0 # tick after each "event"
+        self.lamport_clock = 0  # Internal logical clock (ticked after each event)
         self.request_queue = []
         self.requested = False
-        self.request_queue.append(Message("request", 
-            -1, initially_granted, initially_granted))
+        
+        # Initialize the request queue with the starting grant
+        self.request_queue.append(Message("request", -1, initially_granted, initially_granted))
 
     def remove_request(self, msg_type, sender):
-        index_of_req = -1
-        for i in range(len(self.request_queue)):
-            if self.request_queue[i].msg_type == msg_type and \
-               self.request_queue[i].sender == sender:
-                index_of_req = i
+        """Removes a processed request from the internal priority queue."""
+        index_to_remove = -1
+        for i, req in enumerate(self.request_queue):
+            if req.msg_type == msg_type and req.sender == sender:
+                index_to_remove = i
                 break
-        if i == -1:
-            print("Unable to remove") 
+        
+        if index_to_remove != -1:
+            del self.request_queue[index_to_remove]
         else:
-            del self.request_queue[i]
+            print(f"[*] Process {self.name}: Warning - Request not found for removal.")
 
     def use_resource(self):
-        print("Process {} is using resource".format(self.name))
+        """Simulates critical section execution."""
+        print(f"[!] Process {self.name} is executing in the CRITICAL SECTION.")
         resource_usage_counts[self.name] += 1
-        time.sleep(2)
+        time.sleep(2)  # Simulate work duration
 
-    def process_message(self, msg):
-        # Based on msg_type handle appropriately
+    def handle_message(self, msg):
+        """Processes incoming messages based on their type (request/release/ack)."""
         if msg.msg_type == "request":
-            # Put in our request queue and send an ack 
-            # to the sender
+            # Add neighbor's request to local queue and respond with an Acknowledgement (ACK)
             self.request_queue.append(msg)
             for proc in self.other_processes:
                 if proc == msg.sender:
-                    message_queues[proc].put(Message(
-                        "ack", self.lamport_clock, 
-                        self.name, msg.sender))
+                    message_queues[proc].put(Message("ack", self.lamport_clock, self.name, msg.sender))
+        
         elif msg.msg_type == "release":
-            # Got a release, remove it from our queue
+            # Remove the releasing process's request from local priority queue
             self.remove_request("request", msg.sender)
+            
         elif msg.msg_type == "ack":
+            # ACKs are implicitly handled by checking if newer timestamps are received from all nodes
             pass
+            
         else:
-            print("Unknown message type")
+            print(f"[?] Process {self.name}: Received unknown message type: {msg.msg_type}")
 
     def run(self):
+        """Main process execution loop."""
         while True:
+            # Case 1: Process currently holds the resource
             if self.has_resource:
                 self.use_resource()
                 self.remove_request("request", self.name)
-                # Tell everyone that we are done
+                
+                # Broadcast RELEASE message to all other processes
                 for proc in self.other_processes:
-                    message_queues[proc].put(Message(
-                        "release", self.lamport_clock, 
-                        self.name, proc))
+                    message_queues[proc].put(Message("release", self.lamport_clock, self.name, proc))
                     self.lamport_clock += 1
+                
                 self.has_resource, self.requested = False, False
                 continue
-            # Want to get the resource
+
+            # Case 2: Process wants to acquire the resource
             if not self.requested:
-                # Request it
-                print("Process {} requesting resource".format(
-                    self.name))
-                self.request_queue.append(Message(
-                    "request", self.lamport_clock, 
-                    self.name, self.name))
-                # Broadcast this request
+                print(f"[*] Process {self.name} is initiating a RESOURCE REQUEST.")
+                # Add local request to own queue
+                self.request_queue.append(Message("request", self.lamport_clock, self.name, self.name))
+                
+                # Broadcast REQUEST message to all peers
                 for proc in self.other_processes:
-                    message_queues[proc].put(Message(
-                        "request", self.lamport_clock, 
-                        self.name, proc))
+                    message_queues[proc].put(Message("request", self.lamport_clock, self.name, proc))
                     self.lamport_clock += 1
                 self.requested = True
+            
             else:
-                # Just wait until it is available by processing messages
-                print("Process {} waiting for message".format(self.name))
+                # Case 3: Process is waiting for permission/synchronization
+                print(f"[*] Process {self.name} is waiting for synchronization...")
                 msg = message_queues[self.name].get(block=True)        
-                # Got a message, check if the timestamp 
-                # is greater than our clock, if so advance it
+                
+                # Update Lamport Clock: L(e) = max(L(local), L(received) + 1)
                 if msg.timestamp >= self.lamport_clock:
                     self.lamport_clock = msg.timestamp + 1
-                print("Got message {}".format(msg))
-                self.process_message(msg)
+                
+                print(f"[+] Process {self.name} received: {msg}")
+                self.handle_message(msg)
                 self.lamport_clock += 1
-                # Check after processing if the resource is 
-                # available for me now, if so, grab it.
-                # We need earliest request to be ours and check that we 
-                # have received an older message from everyone else 
-                if self.check_available():
-                    print("Resource available for {}".format(self.name))
+                
+                # Check if resource acquisition conditions are met
+                if self.is_resource_available():
+                    print(f"[#] Resource access GRANTED to {self.name}")
                     self.has_resource = True
-            print("Process {}: {}".format(self.name, self.request_queue))
-            print("Process {} Clock: {}".format(self.name, self.lamport_clock))
+
+            print(f"--- Process {self.name} State | Queue Size: {len(self.request_queue)} | Clock: {self.lamport_clock} ---")
             time.sleep(1)
 
-    def check_available(self):
-        got_older = {k: False for k in self.other_processes}
-        # Get timestamp of our req
-        our_req = None
+    def is_resource_available(self):
+        """
+        Conditions for resource acquisition in Lamport's Mutual Exclusion:
+        1. Local request must be at the head of the priority queue (lowest timestamp).
+        2. A message with a higher timestamp must have been received from every other process.
+        """
+        peer_acknowledgements = {p: False for p in self.other_processes}
+        local_request = None
+        
+        # Locate the local request in our queue
         for req in self.request_queue:
             if req.sender == self.name:
-                our_req = req
-        if our_req is None:
+                local_request = req
+                break
+        
+        if local_request is None:
             return False
-        # We found our req make sure it is younger than 
-        # all the others and we have an older one from 
-        # the other guys
+            
+        # Verify if our request is older (lower timestamp) than any other message received from peers
         for req in self.request_queue:
-            if req.sender in got_older and req.timestamp > our_req.timestamp:
-                got_older[req.sender] = True
-        if all(got_older.values()):
-            return True
-        return False
+            if req.sender in peer_acknowledgements and req.timestamp > local_request.timestamp:
+                peer_acknowledgements[req.sender] = True
+        
+        return all(peer_acknowledgements.values())
 
-t1 = Process("A", initially_granted_proc, list(procs - set("A")))
-t2 = Process("B", initially_granted_proc, list(procs - set("B")))
-t3 = Process("C", initially_granted_proc, list(procs - set("C")))
+def main():
+    print("="*60)
+    print(" LAMPORT DISTRIBUTED MUTUAL EXCLUSION SIMULATOR ")
+    print("="*60)
+    
+    # Initialize and start discrete process threads
+    node_a = Process("A", INITIALLY_GRANTED_PROC, list(PROCESS_IDENTIFIERS - {"A"}))
+    node_b = Process("B", INITIALLY_GRANTED_PROC, list(PROCESS_IDENTIFIERS - {"B"}))
+    node_c = Process("C", INITIALLY_GRANTED_PROC, list(PROCESS_IDENTIFIERS - {"C"}))
 
-# Daemonizing threads means that if main thread dies, so do they. 
-# That way the process will exit if the main thread is killed.
-t1.setDaemon(True)
-t2.setDaemon(True)
-t3.setDaemon(True)
+    # Configure as daemon threads to allow clean exit on main thread termination
+    node_a.daemon = True
+    node_b.daemon = True
+    node_c.daemon = True
 
-try:
-    t1.start()
-    t2.start()
-    t3.start()
-    while True:
-        # Need some arbitrary timeout here, seems a bit hackish. 
-        # If we don't do this then the main thread will just block 
-        # forever waiting for the threads to return and the 
-        # keyboardinterrupt never gets hit. Interestingly regardless of the 
-        # timeout, the keyboard interrupt still occurs immediately 
-        # upon ctrl-c'ing
-        t1.join(30)
-        t2.join(30)
-        t3.join(30)
-except KeyboardInterrupt:
-    print("Ctrl-c pressed")
-    print("Resource usage:")
-    print(resource_usage_counts)
-    sys.exit(1)
+    try:
+        node_a.start()
+        node_b.start()
+        node_c.start()
+        
+        while True:
+            # Synchronize thread joining with a timeout to maintain responsiveness
+            node_a.join(5)
+            node_b.join(5)
+            node_c.join(5)
+            
+    except KeyboardInterrupt:
+        print("\n\n[!] Execution Interrupted by User.")
+        print("-" * 30)
+        print(" FINAL RESOURCE USAGE STATISTICS ")
+        print("-" * 30)
+        for process, count in resource_usage_counts.items():
+            print(f"Process {process}: {count} critical section entries.")
+        print("-" * 30)
+        sys.exit(0)
+
+if __name__ == "__main__":
+    main()
