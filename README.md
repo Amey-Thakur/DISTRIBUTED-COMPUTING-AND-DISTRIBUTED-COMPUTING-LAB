@@ -85,7 +85,7 @@ Comprehensive module-wise notes curated by Mega Satish:
  
   - DC Lab [Experiment - 9](Experiments/Experiment%209/AMEY_B-50_DCL_EXPERIMENT-9.pdf) 
  
-  - DC Lab [Experiment - 10](Experiments/Experiment%2010/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](Experiments/Experiment%2010/Name_Resolution.ipynb) | [RPCServer](Experiments/Experiment%2010/RpcServer.py) | [RPCClient](Experiments/Experiment%2010/Rpcclient.py) | [Test File](Experiments/Experiment%2010/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
+  - DC Lab [Experiment - 10](Experiments/Experiment%2010/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](Experiments/Experiment%2010/Name_Resolution.ipynb) | [RPCServer](Experiments/Experiment%2010/RpcServer.py) | [RPCClient](Experiments/Experiment%2010/RpcClient.py) | [Test File](Experiments/Experiment%2010/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
 
 
 ## Research Paper Presentation
@@ -101,9 +101,9 @@ Comprehensive module-wise notes curated by Mega Satish:
  
  - DC [Quiz - 1](Quizzes/DC_1_FH_22%5Bco1%5D.pdf)
  
- - DC [Quiz - 2](Quizzes/DS_2_FH_22%5Bco2%5D.pdf)
+ - DC [Quiz - 2](Quizzes/DC_2_FH_22%5Bco2%5D.pdf)
  
- - DC [Quiz - 3](Quizzes/DS_3_FH_22%5Bco3%5D.pdf)
+ - DC [Quiz - 3](Quizzes/DC_3_FH_22%5Bco3%5D.pdf)
 
  - DC [Quiz - 4, 5 & 6](Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf)
 
