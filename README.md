@@ -186,7 +186,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 | 4 | To Implement Lamport Logical clock Algorithm | February 3, 2022 | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) |
 | 5 | To Implement a Bully Algorithm | February 10, 2022 | 7/10 | [View](Distributed%20Computing%20Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) |
 | 6 | To Implement Token Ring Mutual Exclusion Algorithm | February 18, 2022 | 8/10 | [View](Distributed%20Computing%20Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) |
-| 7 | Deadlock Detection: Chandy-Misra-Haas Algorithm | - | 8/10 | [View](Distributed%20Computing%20Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) |
+| 7 | To Implement Chandi-Misra-Haas distributed deadlock detection algorithm | February 25, 2022 | 8/10 | [View](Distributed%20Computing%20Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) |
 | 8 | Load Balancing: Static and Dynamic Strategies | - | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-8/AMEY_B-50_DCL_EXPERIMENT-8.pdf) |
 | 9 | Distributed Systems Architecture Review | - | 7/10 | [View](Distributed%20Computing%20Lab/Experiment-9/AMEY_B-50_DCL_EXPERIMENT-9.pdf) |
 | 10 | Name Resolution and Remote Procedure Calls (RPC) | - | 8/10 | [View](Distributed%20Computing%20Lab/Experiment-10/AMEY_B-50_DCL_EXPERIMENT-10.pdf) |
@@ -247,8 +247,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `Deadlock.py` | Termination | CMH Edge-Chasing (Deadlock scenario) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(Deadlock).py) |
-| `NoDeadlock.py`| Termination | CMH Edge-Chasing (No-Deadlock scenario) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(No%20Deadlock).py) |
+| `ChandyMisraHaas.py` | Termination | Chandi-Misra-Haas Edge-Chasing Algorithm | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas.py) |
 </details>
 
 <details>
