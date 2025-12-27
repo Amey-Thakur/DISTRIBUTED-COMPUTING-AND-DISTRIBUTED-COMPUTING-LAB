@@ -63,29 +63,29 @@ Comprehensive module-wise notes curated by Mega Satish:
  - DC [Assignment - 3](Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf)
 
 
-## Experiments 
+## Distributed Computing Laboratory 
  
  >Distributed Computing Lab
  
-   - DC Lab [Experiment - 1](Experiments/Experiment%201/AMEY_B-50_DCL_EXPERIMENT-1.pdf)
+   - DC Lab [Experiment-1](Distributed%20Computing%20Lab/Experiment-1/AMEY_B-50_DCL_EXPERIMENT-1.pdf)
  
-  - DC Lab [Experiment - 2](Experiments/Experiment%202/AMEY_B-50_DCL_EXPERIMENT-2.pdf) | Socket Programming - [Server](Experiments/Experiment%202/server.py) & [Client](Experiments/Experiment%202/client.py) | Kaggle - [Chat Application - Socket Programming](https://www.kaggle.com/ameythakur20/chat-application-socket-programming)
+  - DC Lab [Experiment-2](Distributed Computing Lab/Experiment-2/AMEY_B-50_DCL_EXPERIMENT-2.pdf) | Socket Programming - [Server](Distributed Computing Lab/Experiment-2/server.py) & [Client](Distributed Computing Lab/Experiment-2/client.py) | Kaggle - [Chat Application - Socket Programming](https://www.kaggle.com/ameythakur20/chat-application-socket-programming)
  
-  - DC Lab [Experiment - 3](Experiments/Experiment%203/AMEY_B-50_DCL_EXPERIMENT-3.pdf) | RMI/Pyro4 - [Server](Experiments/Experiment%203/server.py) & [Client](Experiments/Experiment%203/client.py) | Kaggle - [Calculator Application using RMI](https://www.kaggle.com/ameythakur20/calculator-application-using-rmi)
+  - DC Lab [Experiment-3](Distributed Computing Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) | RMI/Pyro4 - [Server](Distributed Computing Lab/Experiment-3/server.py) & [Client](Distributed Computing Lab/Experiment-3/client.py) | Kaggle - [Calculator Application using RMI](https://www.kaggle.com/ameythakur20/calculator-application-using-rmi)
  
-  - DC Lab [Experiment - 4](Experiments/Experiment%204/AMEY_B-50_DCL_EXPERIMENT-4.pdf) | Lamport's Logical Clock - [LCS](Experiments/Experiment%204/LCS.py) & [LCS-Connorwstein](Experiments/Experiment%204/LCS-Connorwstein.py) | Kaggle - [LCS](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs) & [LCS-Connorwstein](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs-connorwstein)
+  - DC Lab [Experiment-4](Distributed Computing Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) | Lamport's Logical Clock - [LCS](Distributed Computing Lab/Experiment-4/LCS.py) & [LCS-Connorwstein](Distributed Computing Lab/Experiment-4/LCS-Connorwstein.py) | Kaggle - [LCS](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs) & [LCS-Connorwstein](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs-connorwstein)
  
-  - DC Lab [Experiment - 5](Experiments/Experiment%205/AMEY_B-50_DCL_EXPERIMENT-5.pdf) | [Bully Algorithm](Experiments/Experiment%205/Bully.java)
+  - DC Lab [Experiment-5](Distributed Computing Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) | [Bully Algorithm](Distributed Computing Lab/Experiment-5/Bully.java)
  
-  - DC Lab [Experiment - 6](Experiments/Experiment%206/AMEY_B-50_DCL_EXPERIMENT-6.pdf) | [Token Ring Algorithm](Experiments/Experiment%206/TokenRing.java)
+  - DC Lab [Experiment-6](Distributed Computing Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) | [Token Ring Algorithm](Distributed Computing Lab/Experiment-6/TokenRing.java)
  
-  - DC Lab [Experiment - 7](Experiments/Experiment%207/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](Experiments/Experiment%207/ChandyMisraHaas%20(Deadlock).py) - Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | [Chandy-Misra-Haas Algorithm](Experiments/Experiment%207/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-no-deadlock)
+  - DC Lab [Experiment-7](Distributed Computing Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) | [Chandy-Misra-Haas Algorithm](Distributed Computing Lab/Experiment-7/ChandyMisraHaas%20(Deadlock).py) - Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | [Chandy-Misra-Haas Algorithm](Distributed Computing Lab/Experiment-7/ChandyMisraHaas%20(No%20Deadlock).py) - No Deadlock - [Kaggle](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-no-deadlock)
  
-  - DC Lab [Experiment - 8](Experiments/Experiment%208/AMEY_B-50_DCL_EXPERIMENT-8.pdf) | JAVA - [Load Balancing](Experiments/Experiment%208/LoadBalancing.java) | PYTHON - [Load Balancing](Experiments/Experiment%208/LoadBalancing.py) - [Kaggle](https://www.kaggle.com/ameythakur20/load-balancing)
+  - DC Lab [Experiment-8](Distributed Computing Lab/Experiment-8/AMEY_B-50_DCL_EXPERIMENT-8.pdf) | JAVA - [Load Balancing](Distributed Computing Lab/Experiment-8/LoadBalancing.java) | PYTHON - [Load Balancing](Distributed Computing Lab/Experiment-8/LoadBalancing.py) - [Kaggle](https://www.kaggle.com/ameythakur20/load-balancing)
  
-  - DC Lab [Experiment - 9](Experiments/Experiment%209/AMEY_B-50_DCL_EXPERIMENT-9.pdf) 
+  - DC Lab [Experiment-9](Distributed Computing Lab/Experiment-9/AMEY_B-50_DCL_EXPERIMENT-9.pdf) 
  
-  - DC Lab [Experiment - 10](Experiments/Experiment%2010/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](Experiments/Experiment%2010/Name_Resolution.ipynb) | [RPCServer](Experiments/Experiment%2010/RpcServer.py) | [RPCClient](Experiments/Experiment%2010/RpcClient.py) | [Test File](Experiments/Experiment%2010/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
+  - DC Lab [Experiment-10](Distributed Computing Lab/Experiment-10/AMEY_B-50_DCL_EXPERIMENT-10.pdf) | Name Resolution - [Google Colaboratory](Distributed Computing Lab/Experiment-10/Name_Resolution.ipynb) | [RPCServer](Distributed Computing Lab/Experiment-10/RpcServer.py) | [RPCClient](Distributed Computing Lab/Experiment-10/RpcClient.py) | [Test File](Distributed Computing Lab/Experiment-10/Data/test.txt) | [Kaggle](https://www.kaggle.com/code/ameythakur20/name-resolution)
 
 
 ## Research Paper Presentation
@@ -139,16 +139,13 @@ Comprehensive module-wise notes curated by Mega Satish:
  - [Timetable](Semester%20Exam/Semester%208%20Timetable.pdf)
 
 
-## Exit Survey
-
- - DC Course & Laboratory [Exit Survey](Exit%20Survey/Distributed%20Computing%20Exit%20Survey.pdf)
-
-
 ## Submission Report
 
  - DC [Theory Report](Submission%20Report/Report_Viewer%20%5BTheory%5D.pdf)
  
  - DC [Laboratory Report](Submission%20Report/Report_Viewer%20%5BLaboratory%5D.pdf)
+ 
+ - DC Course & Laboratory [Exit Survey](Submission%20Report/Distributed%20Computing%20Exit%20Survey.pdf)
  
  - DC [Submission Report](Submission%20Report/AMEY_B-50_DC_SUBMISSION_REPORT.pdf)
 
