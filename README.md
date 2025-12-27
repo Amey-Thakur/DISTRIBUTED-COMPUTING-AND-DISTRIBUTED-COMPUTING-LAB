@@ -137,11 +137,13 @@ Comprehensive module-wise notes curated by Mega Satish, covering all essential t
 
 Academic assignments for comprehensive learning and practice:
 
-| # | Assignment | Description | Resource |
-|:-:|:---|:---|:-:|
-| 1 | [Assignment 1](Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf) | Distributed Systems Fundamentals | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf) |
-| 2 | [Assignment 2](Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf) | Inter-process Communication & Sync | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf) |
-| 3 | [Assignment 3](Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf) | Replication and Fault Tolerance | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf) |
+| # | Assignment | Description | Date |
+|:-:|:---|:---|:---:|
+| 1 | [Assignment 1](Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf) | Heterogeneous systems, middleware models, RPC semantics, stream communication, and synchronization algorithms | March 11, 2022 |
+| 2 | [Assignment 2](Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf) | Resource management (load balancing/sharing), code migration, consistency models, and Google case study | March 25, 2022 |
+| 3 | [Assignment 3](Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf) | Detailed analysis of Distributed Shared Memory (DSM) architecture and its practical applications | March 25, 2022 |
+
+**Topics Covered:** Heterogeneous Systems · Middleware · RPC · Stream Communication · Synchronization · Resource Management · Consistency Models · DSM
 
 ---
 
