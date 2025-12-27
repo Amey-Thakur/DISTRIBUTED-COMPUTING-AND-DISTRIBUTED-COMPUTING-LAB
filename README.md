@@ -305,7 +305,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 <div align="center">
 
   #### 👥 Authors
-  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="The%20Wall/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="https://github.com/rizvihasan.png" width="150" alt="S Hasan Rizvi"><br>[**S Hasan Rizvi**](https://github.com/rizvihasan) |
+  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="https://raw.githubusercontent.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB/main/The%20Wall/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="https://github.com/rizvihasan.png" width="150" alt="S Hasan Rizvi"><br>[**S Hasan Rizvi**](https://github.com/rizvihasan) |
   | :---: | :---: | :---: |
 
 </div>
