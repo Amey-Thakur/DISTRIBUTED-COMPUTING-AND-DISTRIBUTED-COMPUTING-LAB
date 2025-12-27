@@ -247,12 +247,12 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `ChandyMisraHaas.java` | Termination | Chandi-Misra-Haas Unified (Java) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas.java) |
-| `ChandyMisraHaasDeadlock.java` | Termination | CMH Edge-Chasing (Deadlock scenario - Java) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaasDeadlock.java) |
-| `ChandyMisraHaasNoDeadlock.java`| Termination | CMH Edge-Chasing (No-Deadlock scenario - Java) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaasNoDeadlock.java) |
-| `ChandyMisraHaas.py` | Termination | Chandi-Misra-Haas Unified (Python) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas.py) |
-| `Deadlock.py` | Termination | CMH Edge-Chasing (Deadlock scenario - Python) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(Deadlock).py) |
-| `NoDeadlock.py`| Termination | CMH Edge-Chasing (No-Deadlock scenario - Python) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(No%20Deadlock).py) |
+| `Chandy_Misra_Haas.java` | Termination | Chandi-Misra-Haas Unified (Java) | [View](Distributed%20Computing%20Lab/Experiment-7/Chandy_Misra_Haas.java) |
+| `Chandy_Misra_Haas_Deadlock.java` | Termination | CMH Edge-Chasing (Deadlock scenario - Java) | [View](Distributed%20Computing%20Lab/Experiment-7/Chandy_Misra_Haas_Deadlock.java) |
+| `Chandy_Misra_Haas_No_Deadlock.java`| Termination | CMH Edge-Chasing (No-Deadlock scenario - Java) | [View](Distributed%20Computing%20Lab/Experiment-7/Chandy_Misra_Haas_No_Deadlock.java) |
+| `Chandy_Misra_Haas.py` | Termination | Chandi-Misra-Haas Unified (Python) | [View](Distributed%20Computing%20Lab/Experiment-7/Chandy_Misra_Haas.py) |
+| `Chandy_Misra_Haas_Deadlock.py` | Termination | CMH Edge-Chasing (Deadlock scenario - Python) | [View](Distributed%20Computing%20Lab/Experiment-7/Chandy_Misra_Haas_Deadlock.py) |
+| `Chandy_Misra_Haas_No_Deadlock.py`| Termination | CMH Edge-Chasing (No-Deadlock scenario - Python) | [View](Distributed%20Computing%20Lab/Experiment-7/Chandy_Misra_Haas_No_Deadlock.py) |
 </details>
 
 <details>

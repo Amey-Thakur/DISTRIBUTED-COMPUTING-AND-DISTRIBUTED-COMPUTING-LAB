@@ -4,26 +4,27 @@
  * Roll No: 50 | Batch: B3
  * Date of Experiment: February 25, 2022
  * Repository: https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB
- * Description: Experiment 7 - Java Implementation of Chandy-Misra-Haas Deadlock Detection (Scenario: No Deadlock).
+ * Description: Experiment 7 - Java Implementation of Chandy-Misra-Haas Deadlock Detection (Scenario: Deadlock Detected).
  */
 
 import java.util.Scanner;
 
-public class ChandyMisraHaasNoDeadlock {
+public class Chandy_Misra_Haas_Deadlock {
     private static int numProcesses = 5;
     private static int[][] waitMatrix;
     private static boolean deadlockDetected = false;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("--- [CHANDY-MISRA-HAAS DEADLOCK DETECTION: NO DEADLOCK CASE] ---");
+        System.out.println("--- [CHANDY-MISRA-HAAS DEADLOCK DETECTION: DEADLOCK CASE] ---");
 
-        // Initialize Wait-For-Graph without any cycles
+        // Initialize Wait-For-Graph with a cycle (P1->P2->P3->P4->P1)
         waitMatrix = new int[numProcesses][numProcesses];
         waitMatrix[0][1] = 1; // P1 -> P2
         waitMatrix[1][2] = 1; // P2 -> P3
         waitMatrix[2][3] = 1; // P3 -> P4
         waitMatrix[2][4] = 1; // P3 -> P5
+        waitMatrix[3][0] = 1; // P4 -> P1 (Cycle)
 
         displayWFG();
 
@@ -59,7 +60,7 @@ public class ChandyMisraHaasNoDeadlock {
                 propagateProbe(initiatorIdx, target);
             }
         }
-        if (!deadlockDetected) System.out.println("\n[RESULT] Verification Complete: NO DEADLOCK DETECTED.");
+        if (!deadlockDetected) System.out.println("\n[RESULT] No Deadlock detected.");
         else System.out.println("\n[RESULT] DISTRIBUTED DEADLOCK DETECTED!");
     }
 
@@ -69,6 +70,7 @@ public class ChandyMisraHaasNoDeadlock {
             if (waitMatrix[currentIdx][next] == 1) {
                 if (next == initiatorIdx) {
                     System.out.println("    !! Probe returned to Initiator P" + (initiatorIdx + 1) + " !!");
+                    System.out.println("    !! Path: (" + (initiatorIdx + 1) + ", " + (currentIdx + 1) + ", " + (next + 1) + ") --------> DEADLOCK");
                     deadlockDetected = true;
                     return;
                 }
