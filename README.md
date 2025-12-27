@@ -199,8 +199,8 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `server.py` | Networking | Multi-client chat server using Sockets | [View](Distributed%20Computing%20Lab/Experiment-2/server.py) |
-| `client.py` | Networking | Interactive chat client | [View](Distributed%20Computing%20Lab/Experiment-2/client.py) |
+| `Chat_Server.py` | Networking | Multi-client chat server using Sockets | [View](Distributed%20Computing%20Lab/Experiment-2/Chat_Server.py) |
+| `Chat_Client.py` | Networking | Interactive chat client | [View](Distributed%20Computing%20Lab/Experiment-2/Chat_Client.py) |
 </details>
 
 <details>
@@ -209,8 +209,8 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `server.py` | Middleware | RMI Calculator Server implementation | [View](Distributed%20Computing%20Lab/Experiment-3/server.py) |
-| `client.py` | Middleware | RMI Calculator Client implementation | [View](Distributed%20Computing%20Lab/Experiment-3/client.py) |
+| `RMI_Server.py` | Middleware | RMI Calculator Server implementation | [View](Distributed%20Computing%20Lab/Experiment-3/RMI_Server.py) |
+| `RMI_Client.py` | Middleware | RMI Calculator Client implementation | [View](Distributed%20Computing%20Lab/Experiment-3/RMI_Client.py) |
 </details>
 
 <details>
@@ -219,8 +219,8 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `LCS.py` | Coordination | Lamport's Logical Clock implementation | [View](Distributed%20Computing%20Lab/Experiment-4/LCS.py) |
-| `LCS-Connorwstein.py`| Coordination | Alternative Logical Clock implementation | [View](Distributed%20Computing%20Lab/Experiment-4/LCS-Connorwstein.py) |
+| `Lamport_Clock_Synchronization.py` | Coordination | Lamport's Logical Clock implementation | [View](Distributed%20Computing%20Lab/Experiment-4/Lamport_Clock_Synchronization.py) |
+| `Lamport_Mutual_Exclusion.py`| Coordination | Alternative Logical Clock implementation | [View](Distributed%20Computing%20Lab/Experiment-4/Lamport_Mutual_Exclusion.py) |
 </details>
 
 <details>
@@ -229,7 +229,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `Bully.java` | Coordination | Bully Election Algorithm implementation | [View](Distributed%20Computing%20Lab/Experiment-5/Bully.java) |
+| `Bully_Algorithm.java` | Coordination | Bully Election Algorithm implementation | [View](Distributed%20Computing%20Lab/Experiment-5/Bully_Algorithm.java) |
 </details>
 
 <details>
@@ -238,7 +238,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `TokenRing.java` | Coordination | Token Ring Algorithm for mutual exclusion | [View](Distributed%20Computing%20Lab/Experiment-6/TokenRing.java) |
+| `Token_Ring.java` | Coordination | Token Ring Algorithm for mutual exclusion | [View](Distributed%20Computing%20Lab/Experiment-6/Token_Ring.java) |
 </details>
 
 <details>
@@ -271,8 +271,8 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `RpcServer.py` | Middleware | Remote Procedure Call Server | [View](Distributed%20Computing%20Lab/Experiment-10/RpcServer.py) |
-| `RpcClient.py` | Middleware | Remote Procedure Call Client | [View](Distributed%20Computing%20Lab/Experiment-10/RpcClient.py) |
+| `Rpc_Server.py` | Middleware | Remote Procedure Call Server | [View](Distributed%20Computing%20Lab/Experiment-10/Rpc_Server.py) |
+| `Rpc_Client.py` | Middleware | Remote Procedure Call Client | [View](Distributed%20Computing%20Lab/Experiment-10/Rpc_Client.py) |
 | `Name_Resolution.ipynb`| Naming | Name services implementation notebook | [View](Distributed%20Computing%20Lab/Experiment-10/Name_Resolution.ipynb) |
 | `test.txt` | Dataset | Input data for resolution service | [View](Distributed%20Computing%20Lab/Experiment-10/Data/test.txt) |
 </details>

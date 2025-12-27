@@ -9,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class Bully {
+public class Bully_Algorithm {
     /**
      * The Bully Algorithm is used to elect a coordinator (leader) among a group 
      * of processes. The process with the highest process ID is always chosen.
