@@ -68,7 +68,7 @@ All materials in this repository were gathered, organized, and documented by me 
 
 This collection includes **comprehensive reference materials** covering all major topics:
 
-| # | Resource | Description |
+| # | Resource | Focus Area |
 |:-:|:---|:---|
 | 1 | [1) Introduction to DS](<Reference Books/1) Introduction to DS/Introduction.pdf>) | Foundations and Characterization of Distributed Systems |
 | 2 | [2) Communication](<Reference Books/2) Communication/IPC.pdf>) | Remote Procedure Calls (RPC) and Inter-process Communication |
