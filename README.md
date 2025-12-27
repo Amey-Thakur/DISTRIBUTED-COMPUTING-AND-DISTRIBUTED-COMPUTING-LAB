@@ -342,15 +342,15 @@ Internal assessment evaluations conducted during the course:
 
 ### IAT - 1 · March 2, 2022
 
-| # | Resource | Description | Marks |
-|:-:|:---|:---|:-:|
-| 1 | [Question Paper](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) | DC Internal Assessment Test 1 Question Paper | — |
+| # | Resource | Description |
+|:-:|:---|:---|
+| 1 | [Question Paper](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) | DC Internal Assessment Test 1 Question Paper |
 
 ### IAT - 2 · April 18, 2022
 
-| # | Resource | Description | Marks |
-|:-:|:---|:---|:-:|
-| 1 | [Question Paper](IAT-2/DC_IAT-2_Question_Paper.pdf) | DC Internal Assessment Test 2 Question Paper | — |
+| # | Resource | Description |
+|:-:|:---|:---|
+| 1 | [Question Paper](IAT-2/DC_IAT-2_Question_Paper.pdf) | DC Internal Assessment Test 2 Question Paper |
 
 ### Additional Resources:
 
