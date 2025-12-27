@@ -2,42 +2,76 @@
                                      HEADER SECTION
      ========================================================================================= -->
 <div align="center">
-  
-  # Distributed Computing & Lab
 
-  ### CSC802 · CSL802 · Semester VIII · Computer Engineering
+  <img src="https://raw.githubusercontent.com/Amey-Thakur/COMPUTER-ENGINEERING/main/university-of-mumbai-logo.png" alt="University of Mumbai" width="200"/>
 
+  # Distributed Computing and Distributed Computing Laboratory
+
+  ### CSC802 & CSL802 · Semester VIII · Computer Engineering
+
+  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+  [![University](https://img.shields.io/badge/University-Mumbai-%23A6192E.svg)](https://mu.ac.in/)
+  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-orange.svg)](https://ternaengg.ac.in/)
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
-  [![Syllabus](https://img.shields.io/badge/Syllabus-View-yellowgreen.svg)](MU%20SEM%20VIII%20SYLLABUS.pdf)
-  [![Language](https://img.shields.io/badge/Language-Python%20%7C%20Java-blueviolet.svg)](./)
-  [![Tech Stack](https://img.shields.io/badge/Tech%20Stack-Pyro4%20%7C%20RMI%20%7C%20RPC-orange.svg)](./)
-  [![Type](https://img.shields.io/badge/Type-Theory%20%7C%20Laboratory-brightgreen.svg)](./)
 
-  **A comprehensive collection of study materials and laboratory implementations for Distributed Computing, covering clock synchronization, election algorithms, deadlock detection, and load balancing.**
+  **A comprehensive academic resource for Distributed Computing (DC) and DC Laboratory, covering communication paradigms, synchronization algorithms, election protocols, resource management, and distributed file systems.**
 
   ---
 
-  [The Wall](#the-wall) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Laboratory](#distributed-computing-laboratory) &nbsp;·&nbsp; [RPP](#research-paper-presentation) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [IAT](#iat---1) &nbsp;·&nbsp; [Exam](#semester-exam) &nbsp;·&nbsp; [Report](#submission-report)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [The Wall](#the-wall) &nbsp;·&nbsp; [Assignments](#assignments) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#distributed-computing-laboratory) &nbsp;·&nbsp; [Research Paper](#research-paper-presentation) &nbsp;·&nbsp; [Internal Assessment Test](#internal-assessment-test) &nbsp;·&nbsp; [Semester Exam](#semester-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
 ---
 
-> [!NOTE]
-> **Reference Materials**: This repository includes a curated selection of textbooks and reference materials essential for mastering Distributed Computing concepts. Access them here: [Reference Books](Reference%20Books).
+<!-- =========================================================================================
+                                     OVERVIEW SECTION
+     ========================================================================================= -->
+## Overview
 
-> [!TIP]
-> **Distributed Systems Development**: When implementing distributed algorithms, always consider the impact of network latency and partial failures. Using idempotent operations and robust error handling is critical for building resilient distributed systems.
+Distributed Computing (CSC802) and Distributed Computing Lab (CSL802) are pivotal courses in the Final Year (Semester VIII) of the Computer Engineering curriculum at the University of Mumbai. These courses explore the architecture, mechanisms, and algorithms that enable multiple autonomous computers to communicate and coordinate their actions as a single, coherent system.
 
-> [!WARNING]
-> **COVID-19 Impact**: This coursework was completed during the COVID-19 pandemic in 2022. Due to the nationwide lockdown, several planned laboratory sessions and collaborative activities were adapted for remote learning. Despite these challenges, efforts were made to preserve the integrity and depth of all implementations.
+### Course Topics
+
+The curriculum encompasses several critical domains in Distributed Computing:
+
+- **Communication Models**: Remote Procedure Calls (RPC), Remote Method Invocation (RMI), and Message-Oriented Communication.
+- **Synchronization**: Physical and Logical Clocks (Lamport, Vector), Mutual Exclusion, and Election Algorithms (Bully, Ring).
+- **Resource Management**: Process and Resource management, Load Balancing, and Task Assignment.
+- **Consistency & Replication**: Data-centric and Client-centric consistency models, Replication protocols.
+- **Fault Tolerance**: Process resilience, Reliable communication, and Distributed Commit.
+- **Distributed File Systems**: Architecture (NFS, GFS), Name resolution, and Security.
+
+### Repository Purpose
+
+This repository represents a curated collection of study materials, reference books, lab experiments, and collaborative notes compiled during my academic journey. The primary motivation for creating and maintaining this archive is to preserve knowledge for continuous learning and future reference.
+
+As a computer engineer, understanding distributed systems is fundamental to building scalable, reliable, and high-performance modern applications. This repository serves as a professional reference point for relearning complex algorithms and reviewing implementation methodologies.
 
 ---
 
 <!-- =========================================================================================
-                                     THE WALL SECTION
+                                     CONTENTS SECTION
      ========================================================================================= -->
-## THE WALL
+## Repository Contents
+
+### Reference Books
+
+This collection includes **comprehensive reference materials** and chapter-wise study notes:
+
+| # | Resource | Focus Area |
+|:-:|:---|:---|
+| 1 | [DC Techmax](Reference%20Books/DC%20Techmax) | Module-wise curriculum guidance |
+| 2 | [1) Introduction to DS](Reference%20Books/1)%20Introduction%20to%20DS) | Foundations and Characterization of DS |
+| 3 | [2) Communication](Reference%20Books/2)%20Communication) | RPC, RMI, and Message-oriented models |
+| 4 | [3) Synchronization](Reference%20Books/3)%20Synchronization) | Clocks and Coordination Algorithms |
+| 5 | [4) Resource and Process Management](Reference%20Books/4)%20Resource%20and%20Process%20Management) | Process management and Task assignment |
+| 6 | [5) Consistency, Replication, Fault Tolerance](Reference%20Books/5)%20Consistency,%20Replication,%20Fault%20Tolerance) | System resilience and Data consistency |
+| 7 | [6) Distributed File Systems and Name Services](Reference%20Books/6)%20Distributed%20File%20Systems%20and%20Name%20Services) | Naming and Storage architectures |
+
+---
+
+### The Wall
 
 <div align="center">
 
@@ -63,9 +97,9 @@
 </div>
 
 > [!IMPORTANT]
-> 💝 **Special Thanks**: A heartfelt thank you to Mega for her constant support, patience, and clarity throughout this journey. Learning alongside her made a real difference, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach turned challenges into meaningful learning moments.
+> 💝 **Special Thanks**: A heartfelt thank you to Mega for her constant support and clarity throughout this journey. Learning alongside her turned challenges into meaningful learning moments.
 
-### Laboratory Documentation - Notes Authored by [MEGA SATISH](https://github.com/msatmod)
+#### Laboratory Documentation - Notes Authored by [MEGA SATISH](https://github.com/msatmod)
 
 | Module | Resource | Topics Covered |
 |:---:|:---|:---|
@@ -75,27 +109,28 @@
 
 ---
 
-<!-- =========================================================================================
-                                     LEARNING PATH SECTION
-     ========================================================================================= -->
-## Learning Path
+### Assignments
 
-### Phase 1: Communication & Synchronization
-Foundational concepts of inter-process communication and logical clock synchronization.
-- **Experiment-2**: Implement basic Socket Programming for client-server communication.
-- **Experiment-3**: Develop a Calculator application using RMI/Pyro4.
-- **Experiment-4**: Implement Lamport's Logical Clock for ordering events in a distributed system.
+Academic assignments covering theoretical foundations:
 
-### Phase 2: Distributed Coordination
-Implementing algorithms for election, mutual exclusion, and deadlock detection.
-- **Experiment-5**: Implement the Bully Election Algorithm.
-- **Experiment-6**: Implement the Token Ring Algorithm for mutual exclusion.
-- **Experiment-7**: Implement the Chandy-Misra-Haas Algorithm for edge-chasing deadlock detection.
+| # | Assignment | Description | Resource |
+|:-:|:---|:---|:-:|
+| 1 | [Assignment 1](Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf) | Distributed Systems Fundamentals | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf) |
+| 2 | [Assignment 2](Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf) | Inter-process Communication & Sync | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf) |
+| 3 | [Assignment 3](Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf) | Replication and Fault Tolerance | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf) |
 
-### Phase 3: Resource Management & Naming
-Advanced topics in load balancing and name resolution services.
-- **Experiment-8**: Implement Load Balancing algorithms in Java and Python.
-- **Experiment-10**: Implement Name Resolution services and RPC-based communication.
+---
+
+### Quizzes
+
+Course-specific assessments conducted during the term:
+
+| # | Quiz | Topics | Resource |
+|:-:|:---|:---|:-:|
+| 1 | [Quiz 1](Quizzes/DC_1_FH_22%5Bco1%5D.pdf) | Module - 1 Foundations | [View](Quizzes/DC_1_FH_22%5Bco1%5D.pdf) |
+| 2 | [Quiz 2](Quizzes/DC_2_FH_22%5Bco2%5D.pdf) | Module - 2 Communication | [View](Quizzes/DC_2_FH_22%5Bco2%5D.pdf) |
+| 3 | [Quiz 3](Quizzes/DC_3_FH_22%5Bco3%5D.pdf) | Module - 3 Synchronization | [View](Quizzes/DC_3_FH_22%5Bco3%5D.pdf) |
+| 4 | [Quiz 4, 5 & 6](Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf) | Module - 4 to 6 | [View](Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf) |
 
 ---
 
@@ -104,106 +139,113 @@ Advanced topics in load balancing and name resolution services.
      ========================================================================================= -->
 ## Distributed Computing Laboratory
 
-### Experiment-1: Communication Paradigms
-Introduction to distributed communication models.
+The laboratory component (CSL802) focuses on implementing core distributed algorithms using **Python**, **Java**, and **Jupyter Notebooks**.
 
-| # | Program | Description | Report |
-|:-:|:---|:---|:-:|
-| — | Lab Report (PDF) | Detailed experiment report | [View](Distributed%20Computing%20Lab/Experiment-1/AMEY_B-50_DCL_EXPERIMENT-1.pdf) |
+<div align="center">
 
----
+  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-10-yellowgreen.svg)](Distributed%20Computing%20Lab/)
+  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](Distributed%20Computing%20Lab/)
+  [![Language](https://img.shields.io/badge/Language-Python%20%7C%20Java-orange.svg)](Distributed%20Computing%20Lab/)
 
-### Experiment-2: Socket Programming
-Implementation of a basic Chat Application using Socket Programming.
+</div>
 
-| # | Program | Description | Source Code | Report |
-|:-:|:---|:---|:-:|:-:|
-| 1 | server.py | Chat server implementation | [View](Distributed%20Computing%20Lab/Experiment-2/server.py) | [View](Distributed%20Computing%20Lab/Experiment-2/AMEY_B-50_DCL_EXPERIMENT-2.pdf) |
-| 2 | client.py | Chat client implementation | [View](Distributed%20Computing%20Lab/Experiment-2/client.py) | — |
-| — | Kaggle | Interactive notebook | [Explore](https://www.kaggle.com/ameythakur20/chat-application-socket-programming) | — |
+> [!TIP]
+> **Implementation Note**: Most experiments utilize the **Pyro4** library or native **Socket** libraries for networking. Ensure your firewall settings allow local loopback traffic for client-server simulations.
 
----
+| # | Experiment | Date | Marks | Report |
+|:-:|:---|:---:|:-:|:-:|
+| 1 | Communication Paradigms and Distributed System Models | - | - | [View](Distributed%20Computing%20Lab/Experiment-1/AMEY_B-50_DCL_EXPERIMENT-1.pdf) |
+| 2 | Socket Programming: Single Server - Multiple Clients | - | - | [View](Distributed%20Computing%20Lab/Experiment-2/AMEY_B-50_DCL_EXPERIMENT-2.pdf) |
+| 3 | Remote Method Invocation (RMI) using Pyro4 | - | - | [View](Distributed%20Computing%20Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) |
+| 4 | Clock Synchronization: Lamport's Logical Clock | - | - | [View](Distributed%20Computing%20Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) |
+| 5 | Election Algorithms: Bully Algorithm | - | - | [View](Distributed%20Computing%20Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) |
+| 6 | Mutual Exclusion: Token Ring Algorithm | - | - | [View](Distributed%20Computing%20Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) |
+| 7 | Deadlock Detection: Chandy-Misra-Haas Algorithm | - | - | [View](Distributed%20Computing%20Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) |
+| 8 | Load Balancing: Static and Dynamic Strategies | - | - | [View](Distributed%20Computing%20Lab/Experiment-8/AMEY_B-50_DCL_EXPERIMENT-8.pdf) |
+| 9 | Distributed Systems Architecture Review | - | - | [View](Distributed%20Computing%20Lab/Experiment-9/AMEY_B-50_DCL_EXPERIMENT-9.pdf) |
+| 10 | Name Resolution and Remote Procedure Calls (RPC) | - | - | [View](Distributed%20Computing%20Lab/Experiment-10/AMEY_B-50_DCL_EXPERIMENT-10.pdf) |
 
-### Experiment-3: RMI / Pyro4
-Implementation of a Calculator Application using Remote Method Invocation.
+### Program Details
 
-| # | Program | Description | Source Code | Report |
-|:-:|:---|:---|:-:|:-:|
-| 1 | server.py | RMI server implementation | [View](Distributed%20Computing%20Lab/Experiment-3/server.py) | [View](Distributed%20Computing%20Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) |
-| 2 | client.py | RMI client implementation | [View](Distributed%20Computing%20Lab/Experiment-3/client.py) | — |
-| — | Kaggle | Interactive notebook | [Explore](https://www.kaggle.com/ameythakur20/calculator-application-using-rmi) | — |
+<details>
+<summary><b>Experiment 2: Socket Programming (Python)</b></summary>
+<br>
 
----
+| Program | Description | Code |
+|:---|:---|:-:|
+| `server.py` | Multi-client chat server | [View](Distributed%20Computing%20Lab/Experiment-2/server.py) |
+| `client.py` | Interactive chat client | [View](Distributed%20Computing%20Lab/Experiment-2/client.py) |
+</details>
 
-### Experiment-4: Lamport's Logical Clock
-Implementation of LCS for event ordering in distributed systems.
+<details>
+<summary><b>Experiment 3: RMI / Pyro4 (Python)</b></summary>
+<br>
 
-| # | Program | Description | Source Code | Report |
-|:-:|:---|:---|:-:|:-:|
-| 1 | LCS.py | Logical Clock Synchronization | [View](Distributed%20Computing%20Lab/Experiment-4/LCS.py) | [View](Distributed%20Computing%20Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) |
-| 2 | LCS-Connor.py | Alternative implementation | [View](Distributed%20Computing%20Lab/Experiment-4/LCS-Connorwstein.py) | — |
-| — | Kaggle | Interactive notebook | [Explore](https://www.kaggle.com/ameythakur20/lamport-s-logical-clock-lcs) | — |
+| Program | Description | Code |
+|:---|:---|:-:|
+| `server.py` | RMI Calculator Server | [View](Distributed%20Computing%20Lab/Experiment-3/server.py) |
+| `client.py` | RMI Calculator Client | [View](Distributed%20Computing%20Lab/Experiment-3/client.py) |
+</details>
 
----
+<details>
+<summary><b>Experiment 4: Lamport's Clock (Python)</b></summary>
+<br>
 
-### Experiment-5: Bully Algorithm
-Implementation of the Bully Election Algorithm for coordinator selection.
+| Program | Description | Code |
+|:---|:---|:-:|
+| `LCS.py` | Logical Clock implementation | [View](Distributed%20Computing%20Lab/Experiment-4/LCS.py) |
+| `LCS-Connorwstein.py`| Alternative implementation | [View](Distributed%20Computing%20Lab/Experiment-4/LCS-Connorwstein.py) |
+</details>
 
-| # | Program | Description | Source Code | Report |
-|:-:|:---|:---|:-:|:-:|
-| 1 | Bully.java | Election algorithm implementation | [View](Distributed%20Computing%20Lab/Experiment-5/Bully.java) | [View](Distributed%20Computing%20Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) |
+<details>
+<summary><b>Experiment 5: Election Algorithms (Java)</b></summary>
+<br>
 
----
+| Program | Description | Code |
+|:---|:---|:-:|
+| `Bully.java` | Bully Algorithm Implementation | [View](Distributed%20Computing%20Lab/Experiment-5/Bully.java) |
+</details>
 
-### Experiment-6: Token Ring Algorithm
-Implementation of the Token Ring Algorithm for distributed mutual exclusion.
+<details>
+<summary><b>Experiment 6: Mutual Exclusion (Java)</b></summary>
+<br>
 
-| # | Program | Description | Source Code | Report |
-|:-:|:---|:---|:-:|:-:|
-| 1 | TokenRing.java| Mutual exclusion implementation | [View](Distributed%20Computing%20Lab/Experiment-6/TokenRing.java) | [View](Distributed%20Computing%20Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) |
+| Program | Description | Code |
+|:---|:---|:-:|
+| `TokenRing.java` | Token Ring algorithm | [View](Distributed%20Computing%20Lab/Experiment-6/TokenRing.java) |
+</details>
 
----
+<details>
+<summary><b>Experiment 7: Deadlock Detection (Python)</b></summary>
+<br>
 
-### Experiment-7: Chandy-Misra-Haas Algorithm
-Implementation of edge-chasing algorithm for deadlock detection.
+| Program | Description | Code |
+|:---|:---|:-:|
+| `Deadlock.py` | Chandy-Misra-Haas (Deadlock) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(Deadlock).py) |
+| `NoDeadlock.py`| Chandy-Misra-Haas (No Deadlock) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(No%20Deadlock).py) |
+</details>
 
-| # | Program | Description | Source Code | Report |
-|:-:|:---|:---|:-:|:-:|
-| 1 | Deadlock.py | Deadlock detection (CMH) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(Deadlock).py) | [View](Distributed%20Computing%20Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) |
-| 2 | NoDeadlock.py | No-deadlock scenario (CMH) | [View](Distributed%20Computing%20Lab/Experiment-7/ChandyMisraHaas%20(No%20Deadlock).py) | — |
-| — | Kaggle | Deadlock scenario | [Explore](https://www.kaggle.com/ameythakur20/chandy-misra-haas-algorithm-deadlock) | — |
+<details>
+<summary><b>Experiment 8: Load Balancing (Java & Python)</b></summary>
+<br>
 
----
+| Program | Description | Code |
+|:---|:---|:-:|
+| `LoadBalancing.java`| Java static implementation | [View](Distributed%20Computing%20Lab/Experiment-8/LoadBalancing.java) |
+| `LoadBalancing.py` | Python implementation | [View](Distributed%20Computing%20Lab/Experiment-8/LoadBalancing.py) |
+</details>
 
-### Experiment-8: Load Balancing
-Implementation of static and dynamic load balancing strategies.
+<details>
+<summary><b>Experiment 10: Name Resolution & RPC (Python)</b></summary>
+<br>
 
-| # | Program | Description | Source Code | Report |
-|:-:|:---|:---|:-:|:-:|
-| 1 | LoadBal.java | Java implementation | [View](Distributed%20Computing%20Lab/Experiment-8/LoadBalancing.java) | [View](Distributed%20Computing%20Lab/Experiment-8/AMEY_B-50_DCL_EXPERIMENT-8.pdf) |
-| 2 | LoadBal.py | Python implementation | [View](Distributed%20Computing%20Lab/Experiment-8/LoadBalancing.py) | — |
-| — | Kaggle | Performance analysis | [Explore](https://www.kaggle.com/ameythakur20/load-balancing) | — |
-
----
-
-### Experiment-9: Distributed Systems Architecture
-Review of architectural styles and system models.
-
-| # | Program | Description | Report |
-|:-:|:---|:---|:-:|
-| — | Lab Report (PDF) | Detailed experiment report | [View](Distributed%20Computing%20Lab/Experiment-9/AMEY_B-50_DCL_EXPERIMENT-9.pdf) |
-
----
-
-### Experiment-10: Name Resolution & RPC
-Implementation of name services and remote procedure calls.
-
-| # | Program | Description | Source Code | Report |
-|:-:|:---|:---|:-:|:-:|
-| 1 | RpcServer.py | RPC server logic | [View](Distributed%20Computing%20Lab/Experiment-10/RpcServer.py) | [View](Distributed%20Computing%20Lab/Experiment-10/AMEY_B-50_DCL_EXPERIMENT-10.pdf) |
-| 2 | RpcClient.py | RPC client logic | [View](Distributed%20Computing%20Lab/Experiment-10/RpcClient.py) | — |
-| 3 | Resolve.ipynb| Name resolution notebook | [View](Distributed%20Computing%20Lab/Experiment-10/Name_Resolution.ipynb) | — |
-| — | Kaggle | Full implementation | [Explore](https://www.kaggle.com/code/ameythakur20/name-resolution) | — |
+| Program | Description | Code |
+|:---|:---|:-:|
+| `RpcServer.py` | Remote Procedure Call Server | [View](Distributed%20Computing%20Lab/Experiment-10/RpcServer.py) |
+| `RpcClient.py` | Remote Procedure Call Client | [View](Distributed%20Computing%20Lab/Experiment-10/RpcClient.py) |
+| `Name_Resolution.ipynb`| Name services implementation | [View](Distributed%20Computing%20Lab/Experiment-10/Name_Resolution.ipynb) |
+| `test.txt` | Dataset for name resolution | [View](Distributed%20Computing%20Lab/Experiment-10/Data/test.txt) |
+</details>
 
 ---
 
@@ -212,96 +254,147 @@ Implementation of name services and remote procedure calls.
      ========================================================================================= -->
 ## Research Paper Presentation
 
->**Topic: A Comparative Study on Distributed File Systems**
+<div align="center">
 
-| # | Resource | Description | Source |
-|:-:|:---|:---|:-:|
-| 1 | Research Paper | Full scholarly paper | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf) |
-| 2 | Presentation | Visual deck (PDF) | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf) |
+  ### 📂 [A Comparative Study on Distributed File Systems](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
 
----
+  **A technical presentation and research report evaluating distinct architectures of Distributed File Systems.**
 
-<!-- =========================================================================================
-                                     ASSIGNMENTS SECTION
-     ========================================================================================= -->
-## Assignments
+  [![Project](https://img.shields.io/badge/Project-RPP-purple.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf)
+  [![Stack](https://img.shields.io/badge/Stack-Technical%20Analysis-blue.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
+  [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
 
-| # | Assignment | Description | Resource |
-|:-:|:---|:---|:-:|
-| 1 | Assignment - 1 | Fundamental DC Concepts | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-1.pdf) |
-| 2 | Assignment - 2 | Communication & Synchronization | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-2.pdf) |
-| 3 | Assignment - 3 | Replication & Fault Tolerance | [View](Assignments/AMEY_B-50_DC_ASSIGNMENT-3.pdf) |
+</div>
 
----
+<div align="center">
 
-<!-- =========================================================================================
-                                     QUIZZES SECTION
-     ========================================================================================= -->
-## Quizzes
+  #### 👥 Authors
+  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) |
+  | :---: |
 
-| # | Quiz | Topics | Resource |
-|:-:|:---|:---|:-:|
-| 1 | Quiz - 1 | Module - 1 | [View](Quizzes/DC_1_FH_22%5Bco1%5D.pdf) |
-| 2 | Quiz - 2 | Module - 2 | [View](Quizzes/DC_2_FH_22%5Bco2%5D.pdf) |
-| 3 | Quiz - 3 | Module - 3 | [View](Quizzes/DC_3_FH_22%5Bco3%5D.pdf) |
-| 4 | Quiz - 4,5,6 | Module - 4 to 6 | [View](Quizzes/QUIZ%20II%20for%20Distributed%20Computing_Mod-IV%20to%20Mod-VI.pdf) |
+</div>
+
+### Project Overview
+
+This Research Paper Presentation (RPP) provides a detailed comparative analysis of various Distributed File Systems (DFS) like NFS, AFS, and GFS. The study focuses on evaluating their architectural designs, naming conventions, caching mechanisms, and consistency protocols. It serves as a comprehensive reference for understanding how distributed storage solutions handle scale, availability, and performance in modern computing environments.
+
+### Resources
+
+| # | Resource | Description | Date | Link |
+|:-:|:---|:---|:-:|:-:|
+| 1 | **Research Paper** | Scholarly comparative analysis | - | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf) |
+| 2 | **Presentation** | Visual deck of the study (PDF) | - | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf) |
+| 3 | **Source Archive** | Complete project documentation (ZIP) | - | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP.zip) |
 
 ---
 
 <!-- =========================================================================================
-                                     EXAMINATIONS SECTION
+                                     IAT SECTION
      ========================================================================================= -->
-## Internal Assessment Tests
+## Internal Assessment Test
+
+Internal evaluations conducted during the Distributed Computing course:
 
 ### IAT - 1
 | # | Resource | Description | Link |
 |:-:|:---|:---|:-:|
-| — | Question Paper | IAT-1 Exam Paper | [View](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) |
-| 1 | Module - 1 | Introduction to DC | [View](IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf) |
-| 2 | Module - 2 | Communication Models | [View](IAT-1/DC_Module_2-Communication.pdf) |
-| 3 | Module - 3 | Synchronization Algorithms | [View](IAT-1/DC_Module_3-Synchronization.pdf) |
+| 1 | [Question Paper](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) | IAT-1 Official Paper | [View](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) |
+| 2 | [Module - 1](IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf) | Introduction to DC notes | [View](IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf) |
+| 3 | [Module - 2](IAT-1/DC_Module_2-Communication.pdf) | Inter-process Communication | [View](IAT-1/DC_Module_2-Communication.pdf) |
+| 4 | [Module - 3](IAT-1/DC_Module_3-Synchronization.pdf)| Clock Synchronization notes | [View](IAT-1/DC_Module_3-Synchronization.pdf) |
 
 ### IAT - 2
 | # | Resource | Description | Link |
 |:-:|:---|:---|:-:|
-| — | Question Paper | IAT-2 Exam Paper | [View](IAT-2/DC_IAT-2_Question_Paper.pdf) |
-| 1 | Question Bank 1 | DC Unit Test 2 QB | [View](IAT-2/DC_UT_2_QB.pdf) |
-| 2 | Question Bank 2 | Comprehensive QB | [View](IAT-2/DC_QB.pdf) |
-
----
-
-## Semester Exam
-
-| # | Resource | Description | Link |
-|:-:|:---|:---|:-:|
-| 1 | Question Paper | University Exam Paper | [View](Semester%20Exam/DC_Question_Paper.pdf) |
-| 2 | Question Bank | Theory/Subjective QB | [View](Semester%20Exam/DC_Question_Bank.pdf) |
-| 3 | MCQ Bank | Solved Multiple Choice | [View](Semester%20Exam/DC_QB_SOLVED.pdf) |
-| 4 | Timetable | Exam Schedule | [View](Semester%20Exam/Semester%208%20Timetable.pdf) |
+| 1 | [Question Paper](IAT-2/DC_IAT-2_Question_Paper.pdf) | IAT-2 Official Paper | [View](IAT-2/DC_IAT-2_Question_Paper.pdf) |
+| 2 | [DC Question Bank](IAT-2/DC_UT_2_QB.pdf) | Unit Test-2 Prepared Banks | [View](IAT-2/DC_UT_2_QB.pdf) |
+| 3 | [Exam QB](IAT-2/DC_QB.pdf) | Comprehensive Prep Bank | [View](IAT-2/DC_QB.pdf) |
 
 ---
 
 <!-- =========================================================================================
-                                     SUBMISSION SECTION
+                                     SEMESTER EXAM SECTION
      ========================================================================================= -->
-## Submission Report
+## Semester Exam
 
-| # | Document | Description | Link |
+Final university examination materials and preparation banks:
+
+| # | Resource | Description | Link |
 |:-:|:---|:---|:-:|
-| 1 | Theory Report | Final Theory Submission | [View](Submission%20Report/Report_Viewer%20%5BTheory%5D.pdf) |
-| 2 | Laboratory Report| Final Lab Submission | [View](Submission%20Report/Report_Viewer%20%5BLaboratory%5D.pdf) |
-| 3 | Exit Survey | Course & Lab Evaluation | [View](Submission%20Report/Distributed%20Computing%20Exit%20Survey.pdf) |
-| 4 | DC Report | Subject Submission Report | [View](Submission%20Report/AMEY_B-50_DC_SUBMISSION_REPORT.pdf) |
-| 5 | Semester Report | Sem-VIII consolidated | [View](Submission%20Report/Amey_B-50_Submission_Report.pdf) |
+| 1 | [Question Paper](Semester%20Exam/DC_Question_Paper.pdf) | Official University Exam Paper | [View](Semester%20Exam/DC_Question_Paper.pdf) |
+| 2 | [Question Bank](Semester%20Exam/DC_Question_Bank.pdf) | Subjective preparation bank | [View](Semester%20Exam/DC_Question_Bank.pdf) |
+| 3 | [MCQ Bank](Semester%20Exam/DC_QB_SOLVED.pdf) | Solved MCQs for exam prep | [View](Semester%20Exam/DC_QB_SOLVED.pdf) |
+| 4 | [Timetable](Semester%20Exam/Semester%208%20Timetable.pdf) | Sem-VIII Official Schedule | [View](Semester%20Exam/Semester%208%20Timetable.pdf) |
 
 ---
 
+<!-- =========================================================================================
+                                     SUBMISSION REPORT SECTION
+     ========================================================================================= -->
+## Submission Completion Report
+
+Official course completion documentation:
+
+| # | Document | Description | Link |
+|:-:|:---|:---|:-:|
+| 1 | [Theory Report](Submission%20Report/Report_Viewer%20%5BTheory%5D.pdf) | Consolidated Theory Report | [View](Submission%20Report/Report_Viewer%20%5BTheory%5D.pdf) |
+| 2 | [Laboratory Report](Submission%20Report/Report_Viewer%20%5BLaboratory%5D.pdf)| Consolidated Lab Report | [View](Submission%20Report/Report_Viewer%20%5BLaboratory%5D.pdf) |
+| 3 | [Exit Survey](Submission%20Report/Distributed%20Computing%20Exit%20Survey.pdf) | Course outcome evaluation | [View](Submission%20Report/Distributed%20Computing%20Exit%20Survey.pdf) |
+| 4 | [DC Submission](Submission%20Report/AMEY_B-50_DC_SUBMISSION_REPORT.pdf) | Term-work submission report | [View](Submission%20Report/AMEY_B-50_DC_SUBMISSION_REPORT.pdf) |
+| 5 | [Semester VIII Report](Submission%20Report/Amey_B-50_Submission_Report.pdf) | Consolidated Semester Report | [View](Submission%20Report/Amey_B-50_Submission_Report.pdf) |
+
+---
+
+<!-- =========================================================================================
+                                     SYLLABUS SECTION
+     ========================================================================================= -->
+## Syllabus
+
+> [**Official CBCGS Syllabus**](MU%20SEM%20VIII%20SYLLABUS.pdf)  
+> Complete Final Year Computer Engineering syllabus document from the University of Mumbai, including detailed course outcomes, assessment criteria, and module specifications for Distributed Computing and Lab.
+
+---
+
+<!-- =========================================================================================
+                                     USAGE GUIDELINES SECTION
+     ========================================================================================= -->
+## Usage Guidelines
+
+**For Students**  
+Use these resources as reference materials for understanding distributed algorithms and preparing for laboratory sessions or examinations.
+
+**For Educators**  
+These materials may serve as examples for implementation logic or theoretical documentation.
+
+**For Researchers**  
+The comparative analysis within the RPP may provide technical insights into file system architectures.
+
+---
+
+<!-- =========================================================================================
+                                     LICENSE SECTION
+     ========================================================================================= -->
 ## License
 
 This repository and all linked academic content are made available under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. See the [LICENSE](LICENSE) file for complete terms.
 
-> [!NOTE]
-> **Summary:** You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
+---
+
+<!-- =========================================================================================
+                                     ABOUT SECTION
+     ========================================================================================= -->
+## About This Repository
+
+**Created & Maintained by:** [Amey Thakur](https://github.com/Amey-Thakur)  
+**Academic Journey:** Bachelor of Engineering in Computer Engineering (2018-2022)  
+**Institution:** [Terna Engineering College](https://ternaengg.ac.in/), Navi Mumbai  
+**University:** [University of Mumbai](https://mu.ac.in/)
+
+---
+
+### Acknowledgments
+
+Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance in Distributed Computing. Special thanks to [Mega Satish](https://github.com/msatmod) for her exceptional support and clarity throughout this journey.
 
 ---
 
@@ -311,13 +404,13 @@ This repository and all linked academic content are made available under the **C
 <div align="center">
 
   <!-- Footer Navigation -->
-  [↑ Back to Top](#distributed-computing--lab)
+  [↑ Back to Top](#distributed-computing-and-distributed-computing-laboratory)
 
-  [The Wall](#the-wall) &nbsp;·&nbsp; [Learning Path](#learning-path) &nbsp;·&nbsp; [Laboratory](#distributed-computing-laboratory) &nbsp;·&nbsp; [RPP](#research-paper-presentation) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [IAT](#iat---1) &nbsp;·&nbsp; [Exam](#semester-exam) &nbsp;·&nbsp; [Report](#submission-report)
+  [Overview](#overview) &nbsp;·&nbsp; [Contents](#repository-contents) &nbsp;·&nbsp; [The Wall](#the-wall) &nbsp;·&nbsp; [Assignments](#assignments) &nbsp;·&nbsp; [Quizzes](#quizzes) &nbsp;·&nbsp; [Laboratory](#distributed-computing-laboratory) &nbsp;·&nbsp; [Research Paper](#research-paper-presentation) &nbsp;·&nbsp; [Internal Assessment Test](#internal-assessment-test) &nbsp;·&nbsp; [Semester Exam](#semester-exam) &nbsp;·&nbsp; [Submission Report](#submission-completion-report) &nbsp;·&nbsp; [Syllabus](#syllabus) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
-  🏠 **[Back to Computer Engineering](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)**
+  🎓 **[Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)**
 
 </div>
 
