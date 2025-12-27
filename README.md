@@ -340,13 +340,13 @@ This Research Paper Presentation (RPP) provides a detailed comparative analysis 
 
 Internal assessment evaluations conducted during the course:
 
-### IAT - 1
+### IAT - 1 · March 2, 2022
 
 | # | Resource | Description | Marks |
 |:-:|:---|:---|:-:|
 | 1 | [Question Paper](IAT-1/DC%20IAT-1%20Question%20Paper.pdf) | DC Internal Assessment Test 1 Question Paper | — |
 
-### IAT - 2
+### IAT - 2 · April 18, 2022
 
 | # | Resource | Description | Marks |
 |:-:|:---|:---|:-:|
