@@ -10,7 +10,7 @@
 
 import java.util.Scanner;
 
-public class LoadBalancing {
+public class Load_Balancing {
     // Shared state variables for thread communication
     public static int l1; // Limit for Processor 1
     public static int l2; // Limit for Processor 2
@@ -55,9 +55,9 @@ public class LoadBalancing {
  */
 class Processor1Handler implements Runnable {
     public void run() {
-        System.out.println("\n[PROCESSOR 1] Status (Capacity: " + LoadBalancing.l1 + ")");
-        int limit = LoadBalancing.l1;
-        int total = LoadBalancing.n;
+        System.out.println("\n[PROCESSOR 1] Status (Capacity: " + Load_Balancing.l1 + ")");
+        int limit = Load_Balancing.l1;
+        int total = Load_Balancing.n;
         int remaining = 0;
 
         if (total == 0) {
@@ -78,7 +78,7 @@ class Processor1Handler implements Runnable {
             }
         }
         // Update shared remainder for Processor 2
-        LoadBalancing.r1 = remaining;
+        Load_Balancing.r1 = remaining;
     }
 }
 
@@ -95,9 +95,9 @@ class Processor2Handler implements Runnable {
             System.err.println("Thread Interrupted: " + e.getMessage());
         }
 
-        System.out.println("\n[PROCESSOR 2] Status (Capacity: " + LoadBalancing.l2 + ")");
-        int limit = LoadBalancing.l2;
-        int workload = LoadBalancing.r1; // Gets overflow from P1
+        System.out.println("\n[PROCESSOR 2] Status (Capacity: " + Load_Balancing.l2 + ")");
+        int limit = Load_Balancing.l2;
+        int workload = Load_Balancing.r1; // Gets overflow from P1
 
         if (workload == 0) {
             System.out.println("  -> No overflow tasks received from Processor 1.");

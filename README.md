@@ -261,8 +261,8 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | Program | Category | Description | Code |
 |:---|:---|:---|:-:|
-| `LoadBalancing.java`| Resource Mgmt | Java static load balancing model | [View](Distributed%20Computing%20Lab/Experiment-8/LoadBalancing.java) |
-| `LoadBalancing.py` | Resource Mgmt | Python dynamic load balancing model | [View](Distributed%20Computing%20Lab/Experiment-8/LoadBalancing.py) |
+| `Load_Balancing.java`| Resource Mgmt | Java static load balancing model | [View](Distributed%20Computing%20Lab/Experiment-8/Load_Balancing.java) |
+| `Load_Balancing.py` | Resource Mgmt | Python dynamic load balancing model | [View](Distributed%20Computing%20Lab/Experiment-8/Load_Balancing.py) |
 </details>
 
 <details>
