@@ -182,7 +182,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 |:-:|:---|:---:|:---:|:-:|
 | 1 | To Compare Network operating system and Distributed operating system | January 13, 2022 | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-1/AMEY_B-50_DCL_EXPERIMENT-1.pdf) |
 | 2 | To Implement Group Communication as a Chat application using socket programming | January 20, 2022 | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-2/AMEY_B-50_DCL_EXPERIMENT-2.pdf) |
-| 3 | Remote Method Invocation (RMI) using Pyro4 | - | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) |
+| 3 | To Implement any application using RMI/RPC | January 27, 2022 | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) |
 | 4 | Clock Synchronization: Lamport's Logical Clock | - | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) |
 | 5 | Election Algorithms: Bully Algorithm | - | 7/10 | [View](Distributed%20Computing%20Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) |
 | 6 | Mutual Exclusion: Token Ring Algorithm | - | 8/10 | [View](Distributed%20Computing%20Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) |

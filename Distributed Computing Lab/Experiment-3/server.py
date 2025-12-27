@@ -1,51 +1,98 @@
+# Name: Amey Mahendra Thakur
+# Course: Distributed Computing Lab (CSL802)
+# Roll No: 50 | Batch: B3
+# Date of Experiment: January 27, 2022
+# Repository: https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB
+# Description: Experiment 3 - Implementation of Remote Method Invocation (RMI) for a Distributed Calculator using Pyro4 (Server-side)
+
 import Pyro4
 import random
-import os
 import datetime
-import subprocess
 import math
+import sys
 
-now=datetime.datetime.now()
-print('date: '+now.strftime('%d-%m-%y')+' Time:'+now.strftime('%H:%M:%S'))
 @Pyro4.expose
-
-class Server(object):
+class RemoteCalculator(object):
+    """
+    The RemoteCalculator class contains methods that will be invoked remotely 
+    by the client using the Pyro4 framework.
+    """
+    
     def get_usid(self, name):
-        return "Hello, {0}.\n" \
-        "Your Current User Session is {1}:".format(name, random.randint(0,1000))
+        """Generates a unique session ID for the user."""
+        session_id = random.randint(1000, 9999)
+        return f"Hello, {name}.\nYour authenticated User Session ID is: {session_id}"
 
     def add(self, a, b):
-        return "{0} + {1} = {2}".format(a, b, a+b)
+        """Performs addition."""
+        return f"{a} + {b} = {a + b}"
 
     def subtract(self, a, b):
-        return "{0} - {1} = {2}".format(a, b, a-b)
+        """Performs subtraction."""
+        return f"{a} - {b} = {a - b}"
 
     def multiply(self, a, b):
-        return "{0} * {1} = {2}".format(a, b, a*b)
+        """Performs multiplication."""
+        return f"{a} * {b} = {a * b}"
 
     def division(self, a, b):
-        return "{0} / {1} = {2}".format(a, b, a/b)
+        """Performs division with error handling for zero."""
+        if b == 0:
+            return "Error: Division by zero is undefined."
+        return f"{a} / {b} = {a / b}"
 
     def sqr(self, a):
-        return "{0} ^ 2 = {1}".format(a, a**2)
+        """Calculates the square of a number."""
+        return f"{a} ^ 2 = {a ** 2}"
 
     def sqrt(self, a):
-        return "sqrt({0}) = {1}".format(a, math.sqrt(a))
+        """Calculates the square root of a number."""
+        if a < 0:
+            return "Error: Cannot calculate square root of a negative number in real domain."
+        return f"sqrt({a}) = {math.sqrt(a)}"
 
     def mod(self, a, b):
-        return "{0} % {1} = {2}".format(a, b, a%b)
+        """Calculates the remainder of division."""
+        return f"{a} % {b} = {a % b}"
 
     def per(self, a, b):
-        return "( {0} / {1} ) * 100 = {2}".format(a, b, (a/b)*100)
+        """Calculates the percentage of a relative to b."""
+        if b == 0:
+            return "Error: Division by zero in percentage calculation."
+        return f"( {a} / {b} ) * 100 = {(a / b) * 100}%"
 
     def exp(self, a, b):
-        return "{0} ** {1} = {2}".format(a, b, a**b)
+        """Performs exponentiation (a to the power of b)."""
+        return f"{a} ** {b} = {a ** b}"
 
-daemon = Pyro4.Daemon()
-ns = Pyro4.locateNS()
-url = daemon.register(Server)
-ns.register("RMI.calculator", url)
+def main():
+    # Capture current server timestamp
+    now = datetime.datetime.now()
+    print(f"[*] Server initialized on: {now.strftime('%d-%m-%Y')} at {now.strftime('%H:%M:%S')}")
 
-print("The Server is now active., please request your calculations or start file transfer")
+    try:
+        # 1. Initialize the Pyro4 Daemon
+        daemon = Pyro4.Daemon()
+        
+        # 2. Locate the Pyro4 Name Server
+        # Ensure 'pyro4-ns' is running in the background for this to work
+        ns = Pyro4.locateNS()
+        
+        # 3. Register the server class with the daemon
+        uri = daemon.register(RemoteCalculator)
+        
+        # 4. Register the object name with the Name Server
+        ns.register("RMI.calculator", uri)
+        
+        print("[*] RMI Calculator Server is now active and registered.")
+        print("[*] Waiting for remote procedure calls...")
+        
+        # 5. Start the request loop
+        daemon.requestLoop()
+        
+    except Exception as e:
+        print(f"[!] Server Error: {e}")
+        print("[!] Ensure the Pyro4 Name Server (pyro4-ns) is operational.")
 
-daemon.requestLoop()
+if __name__ == "__main__":
+    main()
