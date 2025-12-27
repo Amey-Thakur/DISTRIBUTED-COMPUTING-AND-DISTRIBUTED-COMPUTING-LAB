@@ -356,9 +356,9 @@ Internal assessment evaluations conducted during the course:
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Module - 1](IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf) | Introduction to Distributed Computing |
-| 2 | [Module - 2](IAT-1/DC_Module_2-Communication.pdf) | Inter-process Communication |
-| 3 | [Module - 3](IAT-1/DC_Module_3-Synchronization.pdf) | Clock Synchronization |
+| 1 | [Module - 1](IAT-1/DC_Module_1-Introduction_to_Distributed_Computing.pdf) | Personal Exam Preparation Notes |
+| 2 | [Module - 2](IAT-1/DC_Module_2-Communication.pdf) | Personal Exam Preparation Notes |
+| 3 | [Module - 3](IAT-1/DC_Module_3-Synchronization.pdf) | Personal Exam Preparation Notes |
 | 4 | [Question Bank 1](IAT-2/DC_UT_2_QB.pdf) | Prep Bank Set 1 |
 | 5 | [Question Bank 2](IAT-2/DC_UT2_QB.pdf) | Prep Bank Set 2 |
 | 6 | [Exam QB](IAT-2/DC_QB.pdf) | Comprehensive Prep Bank |
