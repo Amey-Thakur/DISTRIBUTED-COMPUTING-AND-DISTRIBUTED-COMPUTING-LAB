@@ -292,11 +292,11 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 <div align="center">
 
-  ### 📂 [A Comparative Study on Distributed File Systems](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
+  ### 📂 [A Comparative Study on Distributed File Systems](https://doi.org/10.13140/RG.2.2.31450.82887)
 
   **A technical analysis and comparative evaluation of distinct architectures of Distributed File Systems.**
 
-  [![Project](https://img.shields.io/badge/Project-RPP-purple.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf)
+  [![Project](https://img.shields.io/badge/Project-RPP-purple.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
   [![Stack](https://img.shields.io/badge/Stack-Technical%20Analysis-blue.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
   [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
 
@@ -305,22 +305,31 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 <div align="center">
 
   #### 👥 Authors
-  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) |
-  | :---: |
+  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="https://github.com/rizvihasan.png" width="150" alt="S Hasan Rizvi"><br>[**S Hasan Rizvi**](https://github.com/rizvihasan) | <img src="https://github.com/msatmod.png" width="150" alt="Mega"><br>[**Mega**](https://github.com/msatmod) |
+  | :---: | :---: | :---: |
 
 </div>
+
+> [!IMPORTANT]
+> ### 🤝🏻 Special Acknowledgement
+> *Special thanks to [S Hasan Rizvi](https://github.com/rizvihasan) and [Mega](https://github.com/msatmod) for their meaningful contributions, guidance, and support that helped shape this work.*
 
 ### Project Overview
 
 This Research Paper Presentation (RPP) provides a detailed comparative analysis of various Distributed File Systems (DFS) such as NFS, AFS, and GFS. The study focuses on evaluating their architectural designs, naming conventions, caching mechanisms, and consistency protocols. It serves as a comprehensive reference for understanding how distributed storage solutions handle scale, availability, and performance in modern computing environments.
 
+> [!NOTE]
+> **Research Impact:** This project was published as a research paper and is available on **ResearchGate**.
+> - [Presentation @ResearchGate](https://doi.org/10.13140/RG.2.2.31450.82887)
+
 ### Resources
 
-| # | Resource | Description | Link |
-|:-:|:---|:---|:-:|
-| 1 | **Research Paper** | Scholarly comparative analysis | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf) |
-| 2 | **Presentation** | Visual deck of the study (PDF) | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf) |
-| 3 | **Source Archive** | Complete project documentation (ZIP) | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP.zip) |
+| # | Resource | Description | Date | Marks | Link |
+|:-:|:---|:---|:-:|:-:|:-:|
+| 1 | **Research Paper** | Scholarly comparative analysis | March 18, 2022 | **07/10** | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf) |
+| 2 | **Presentation** | Visual deck of the study (PDF) | March 18, 2022 | **07/10** | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf) |
+| 3 | **Source Archive** | Complete project documentation (ZIP) | March 18, 2022 | - | [View](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP.zip) |
+| 4 | **ResearchGate** | Case study available on ResearchGate | September 2021 | - | [View](https://doi.org/10.13140/RG.2.2.31450.82887) |
 
 ---
 
@@ -454,6 +463,8 @@ This repository represents a comprehensive collection of study materials, refere
 **Connect:** [GitHub](https://github.com/Amey-Thakur) · [LinkedIn](https://www.linkedin.com/in/amey-thakur)
 
 ### Acknowledgments
+
+Grateful acknowledgment to [**S Hasan Rizvi**](https://github.com/rizvihasan) and [**Mega Satish**](https://github.com/msatmod) for their exceptional support, collaborative efforts, and the technical insights they shared during the development of the "A Comparative Study on Distributed File Systems" project. Working alongside them was a truly enriching experience - their technical expertise, dedication to exploring distributed architectures, and enthusiasm for innovation turned every challenge into a meaningful learning opportunity. Our shared curiosity and collaborative efforts in analyzing complex distributed storage solutions were essential to the project's success. Thank you, Hasan and Mega, for being such outstanding project partners and for all the knowledge and encouragement you shared along the way.
 
 Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance in Distributed Computing. Their clear teaching and continued support helped develop a strong understanding of distributed systems and coordination paradigms.
 
