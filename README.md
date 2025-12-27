@@ -400,6 +400,7 @@ Course completion documentation with exit survey:
 | 2 | [Exit Survey (Theory)](Submission%20Report/Report_Viewer%20%5BTheory%5D.pdf) | Course outcome survey for DC Theory |
 | 3 | [Exit Survey (Lab)](Submission%20Report/Report_Viewer%20%5BLaboratory%5D.pdf) | Course outcome survey for DC Lab |
 | 4 | [Course Exit Survey](Submission%20Report/Distributed%20Computing%20Exit%20Survey.pdf) | Course outcome survey for Distributed Computing |
+| 5 | [Semester Report](Submission%20Report/Amey_B-50_Submission_Report.pdf) | Collective Semester 8 submission report |
 
 ---
 
