@@ -119,12 +119,17 @@ This collection includes **comprehensive reference materials** covering all majo
 </div>
 
 > [!IMPORTANT]
-> 💝 **Special Thanks**: A heartfelt thank you to Mega for her constant support, patience, and clarity throughout this journey. Learning alongside her made a real difference, not only because she explained concepts so clearly, but because she truly cared about understanding them together.
+> 💝 **Special Thanks**: A heartfelt thank you to Mega for her constant support, patience, and clarity throughout this journey. Learning alongside her made a real difference, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
 
-#### Personal Preparation Notes - Authored by [MEGA SATISH](https://github.com/msatmod)
+### The Wall - Notes Authored by [MEGA SATISH](https://github.com/msatmod)
+
+Comprehensive module-wise notes curated by Mega Satish, covering all essential topics:
 
 | Module | Resource | Topics Covered |
 |:---:|:---|:---|
+| 1 | [DC Module - 1](<Reference Books/1) Introduction to DS/Introduction.pdf>) | Foundations of Distributed Computing |
+| 2 | [DC Module - 2](<Reference Books/2) Communication/IPC.pdf>) | Communication Paradigms and Protocols |
+| 3 | [DC Module - 3](<Reference Books/3) Synchronization/Clock Synchronization.pdf>) | Synchronization and Coordination Algorithms |
 | 4 | [DC Module - 4](THE%20WALL/DC_Module_4.pdf) | Consistency and Replication |
 | 5 | [DC Module - 5](THE%20WALL/DC_Module_5.pdf) | Fault Tolerance and Recovery |
 | 6 | [DC Module - 6](THE%20WALL/DC_Module_6.pdf) | Distributed File Systems and Security |
