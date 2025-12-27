@@ -385,20 +385,7 @@ Final semester examination submission:
 | 3 | [Sample Questions](Semester%20Exam/Comp_R16_Sem%20VIII_CSC802_Distributed%20Computing+Sample%20Questions.pdf) | DC practice and sample questions |
 | 4 | [Timetable](Semester%20Exam/Semester%208%20Timetable.pdf) | Semester 8 examination schedule |
 
----
 
-<!-- =========================================================================================
-                                     QUESTION PAPERS SECTION
-     ========================================================================================= -->
-## Question Papers
-
-Previous university question papers and sample collections:
-
-| # | Exam Session | Syllabus | Resource |
-|:-:|:---|:-:|:-:|
-| 1 | May 2022 | CBCGS | [View](Semester%20Exam/Comp_R16_Sem%20VIII_CSC802_Distributed%20Computing+Sample%20Questions.pdf) |
-
----
 
 <!-- =========================================================================================
                                      SUBMISSION REPORT SECTION
