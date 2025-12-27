@@ -127,9 +127,6 @@ Comprehensive module-wise notes curated by Mega Satish, covering all essential t
 
 | Module | Resource | Topics Covered |
 |:---:|:---|:---|
-| 1 | [DC Module - 1](<Reference Books/1) Introduction to DS/Introduction.pdf>) | Foundations of Distributed Computing |
-| 2 | [DC Module - 2](<Reference Books/2) Communication/IPC.pdf>) | Communication Paradigms and Protocols |
-| 3 | [DC Module - 3](<Reference Books/3) Synchronization/Clock Synchronization.pdf>) | Synchronization and Coordination Algorithms |
 | 4 | [DC Module - 4](THE%20WALL/DC_Module_4.pdf) | Consistency and Replication |
 | 5 | [DC Module - 5](THE%20WALL/DC_Module_5.pdf) | Fault Tolerance and Recovery |
 | 6 | [DC Module - 6](THE%20WALL/DC_Module_6.pdf) | Distributed File Systems and Security |
