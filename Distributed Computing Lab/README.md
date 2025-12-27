@@ -23,8 +23,11 @@
 
 ---
 
+> [!NOTE]
+> **Environment Configuration**: This repository focuses on distributed architectures. Experiments utilize Python's `socket` module for low-level communication and `Pyro4` for Remote Method Invocation (RMI), alongside multithreaded Java implementations for coordination protocols.
+
 > [!TIP]
-> **Distributed Architectures & Debugging**: This laboratory utilizes Python's `socket` module for low-level communication, `Pyro4` for RMI, and multithreaded Java for coordination protocols. When debugging these multi-process systems, use centralized logging or timestamped console outputs to trace events across nodes—logical clocks are essential for ordering in the absence of a global clock.
+> **Distributed Debugging**: When debugging multi-process systems (like the Bully Algorithm or Token Ring), use centralized logging or timestamped console outputs to trace the sequence of events across nodes. Logical clocks are your best tool for ordering events in the absence of a global clock.
 
 > [!WARNING]
 > **Port Conflicts**: Ensure that ports used in the RMI and Socket experiments (default: 1234 or Pyro4 default) are not occupied by other system services. If a "Connection Refused" error occurs, verify that the server script is initialized and listening before running the client.
