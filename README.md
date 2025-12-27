@@ -368,16 +368,22 @@ Internal assessment evaluations conducted during the course:
 <!-- =========================================================================================
                                      SEMESTER EXAM SECTION
      ========================================================================================= -->
-## Semester Exam · May 20, 2022
+## Semester Exam
 
-Final university examination materials and preparation banks:
+Final semester examination submission:
+
+| # | Resource | Description | Date |
+|:-:|:---|:---|:-:|
+| 1 | [Question Paper](Semester%20Exam/DC_Question_Paper.pdf) | Official University Question Paper | May 20, 2022 |
+
+### Additional Resources:
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Question Paper](Semester%20Exam/DC_Question_Paper.pdf) | Official University Exam Paper |
-| 2 | [Question Bank](Semester%20Exam/DC_Question_Bank.pdf) | Subjective preparation bank |
-| 3 | [MCQ Bank](Semester%20Exam/DC_QB_SOLVED.pdf) | Solved MCQs for exam prep |
-| 4 | [Timetable](Semester%20Exam/Semester%208%20Timetable.pdf) | Sem-VIII Official Schedule |
+| 1 | [Amey's Notes](Semester%20Exam/DC_Question_Bank.pdf) | Personal Exam Preparation Notes |
+| 2 | [MCQ](Semester%20Exam/DC_QB_SOLVED.pdf) | MCQ Question Bank |
+| 3 | [Sample Questions](Semester%20Exam/Comp_R16_Sem%20VIII_CSC802_Distributed%20Computing+Sample%20Questions.pdf) | DC practice and sample questions |
+| 4 | [Timetable](Semester%20Exam/Semester%208%20Timetable.pdf) | Semester 8 examination schedule |
 
 ---
 
