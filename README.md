@@ -281,7 +281,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 | # | Resource | Description |
 |:-:|:---|:---|
-| 1 | [Lab Report (PDF)](Submission%20Report/Report_Viewer%20%5BLaboratory%5D.pdf) | Consolidated Lab Submission Report |
+| 1 | [Lab README](Distributed%20Computing%20Lab/README.md) | Detailed navigation guide with program descriptions |
 
 ---
 
