@@ -14,7 +14,7 @@
   [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-orange.svg)](https://ternaengg.ac.in/)
   [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
 
-  **A comprehensive academic resource for Distributed Computing (DC) and DC Laboratory, covering communication paradigms, synchronization algorithms, election protocols, resource management, and distributed file systems.**
+  **A comprehensive academic resource for Distributed Computing (DC) and Distributed Computing Laboratory (DC Lab), covering communication paradigms, synchronization algorithms, election protocols, resource management, and distributed file systems.**
 
   ---
 
