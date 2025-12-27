@@ -467,7 +467,9 @@ Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) for her
 
 Grateful acknowledgment to [**Hasan Rizvi**](https://github.com/rizvihasan) for his exceptional support, collaborative efforts, and the technical insights he shared during the development of the "A Comparative Study on Distributed File Systems" project. Working alongside him was a truly enriching experience - his technical expertise, dedication to exploring distributed architectures, and enthusiasm for innovation turned every challenge into a meaningful learning opportunity. Our shared curiosity and collaborative efforts in analyzing complex distributed storage solutions were essential to the project's success. Thank you, Hasan, for being such an outstanding project partner and for all the knowledge and encouragement you shared along the way.
 
-Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance in Distributed Computing. Their clear teaching and continued support helped develop a strong understanding of distributed systems and coordination paradigms.
+Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance and instruction in Distributed Computing. Their expertise and support helped develop a strong understanding of distributed systems and coordination paradigms.
+
+Special thanks to the mentors and peers whose encouragement, discussions, and support contributed meaningfully to this learning experience.
 
 ---
 
