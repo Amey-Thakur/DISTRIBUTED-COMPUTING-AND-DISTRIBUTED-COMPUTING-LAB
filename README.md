@@ -312,7 +312,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 > [!IMPORTANT]
 > ### 🤝🏻 Special Acknowledgement
-> *Special thanks to [Mega Satish](https://github.com/msatmod) and [Hasan Rizvi](https://github.com/rizvihasan) for their meaningful contributions, guidance, and support that helped shape this work.*
+> *Special thanks to [**Mega Satish**](https://github.com/msatmod) and [**Hasan Rizvi**](https://github.com/rizvihasan) for their meaningful contributions, guidance, and support that helped shape this work.*
 
 ### Project Overview
 
