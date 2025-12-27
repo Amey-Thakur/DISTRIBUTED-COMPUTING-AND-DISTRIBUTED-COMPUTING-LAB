@@ -178,18 +178,18 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 > [!TIP]
 > **Implementation Note**: This laboratory utilizes **Python** and **Java** for core implementations. Most experiments involve network simulations; ensure your environment allows communication over local sockets. Using **Pyro4** for RMI experiments and **Socket** programming for low-level communication is essential.
 
-| # | Experiment | Date | Report |
-|:-:|:---|:---:|:-:|
-| 1 | Communication Paradigms and Distributed System Models | - | [View](Distributed%20Computing%20Lab/Experiment-1/AMEY_B-50_DCL_EXPERIMENT-1.pdf) |
-| 2 | Socket Programming: Single Server - Multiple Clients | - | [View](Distributed%20Computing%20Lab/Experiment-2/AMEY_B-50_DCL_EXPERIMENT-2.pdf) |
-| 3 | Remote Method Invocation (RMI) using Pyro4 | - | [View](Distributed%20Computing%20Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) |
-| 4 | Clock Synchronization: Lamport's Logical Clock | - | [View](Distributed%20Computing%20Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) |
-| 5 | Election Algorithms: Bully Algorithm | - | [View](Distributed%20Computing%20Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) |
-| 6 | Mutual Exclusion: Token Ring Algorithm | - | [View](Distributed%20Computing%20Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) |
-| 7 | Deadlock Detection: Chandy-Misra-Haas Algorithm | - | [View](Distributed%20Computing%20Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) |
-| 8 | Load Balancing: Static and Dynamic Strategies | - | [View](Distributed%20Computing%20Lab/Experiment-8/AMEY_B-50_DCL_EXPERIMENT-8.pdf) |
-| 9 | Distributed Systems Architecture Review | - | [View](Distributed%20Computing%20Lab/Experiment-9/AMEY_B-50_DCL_EXPERIMENT-9.pdf) |
-| 10 | Name Resolution and Remote Procedure Calls (RPC) | - | [View](Distributed%20Computing%20Lab/Experiment-10/AMEY_B-50_DCL_EXPERIMENT-10.pdf) |
+| # | Experiment | Date | Marks | Report |
+|:-:|:---|:---:|:---:|:-:|
+| 1 | To Compare Network operating system and Distributed operating system | January 13, 2022 | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-1/AMEY_B-50_DCL_EXPERIMENT-1.pdf) |
+| 2 | Socket Programming: Single Server - Multiple Clients | - | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-2/AMEY_B-50_DCL_EXPERIMENT-2.pdf) |
+| 3 | Remote Method Invocation (RMI) using Pyro4 | - | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-3/AMEY_B-50_DCL_EXPERIMENT-3.pdf) |
+| 4 | Clock Synchronization: Lamport's Logical Clock | - | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-4/AMEY_B-50_DCL_EXPERIMENT-4.pdf) |
+| 5 | Election Algorithms: Bully Algorithm | - | 7/10 | [View](Distributed%20Computing%20Lab/Experiment-5/AMEY_B-50_DCL_EXPERIMENT-5.pdf) |
+| 6 | Mutual Exclusion: Token Ring Algorithm | - | 8/10 | [View](Distributed%20Computing%20Lab/Experiment-6/AMEY_B-50_DCL_EXPERIMENT-6.pdf) |
+| 7 | Deadlock Detection: Chandy-Misra-Haas Algorithm | - | 8/10 | [View](Distributed%20Computing%20Lab/Experiment-7/AMEY_B-50_DCL_EXPERIMENT-7.pdf) |
+| 8 | Load Balancing: Static and Dynamic Strategies | - | 10/10 | [View](Distributed%20Computing%20Lab/Experiment-8/AMEY_B-50_DCL_EXPERIMENT-8.pdf) |
+| 9 | Distributed Systems Architecture Review | - | 7/10 | [View](Distributed%20Computing%20Lab/Experiment-9/AMEY_B-50_DCL_EXPERIMENT-9.pdf) |
+| 10 | Name Resolution and Remote Procedure Calls (RPC) | - | 8/10 | [View](Distributed%20Computing%20Lab/Experiment-10/AMEY_B-50_DCL_EXPERIMENT-10.pdf) |
 
 ### Program Details
 
