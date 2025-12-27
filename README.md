@@ -92,9 +92,9 @@ Comprehensive module-wise notes curated by Mega Satish:
 
  >**Topic: A Comparative Study on Distributed File Systems**
 
- - [Research Paper](RPP/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
+ - [Research Paper](Research%20Paper%20Presentation/AMEY_B-50_DC_Research%20Paper%20Presentation/A_Comparative_Study_on_Distributed_File_Systems.pdf)
  
- - [Presentation](RPP/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf)
+ - [Presentation](Research%20Paper%20Presentation/AMEY_B-50_DC_Research%20Paper%20Presentation/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf)
 
 
 ## Quizzes 
