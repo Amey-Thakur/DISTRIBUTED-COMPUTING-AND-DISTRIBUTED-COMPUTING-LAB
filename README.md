@@ -305,14 +305,14 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 <div align="center">
 
   #### 👥 Authors
-  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="THE%20WALL/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="https://github.com/rizvihasan.png" width="150" alt="S Hasan Rizvi"><br>[**S Hasan Rizvi**](https://github.com/rizvihasan) |
+  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="THE%20WALL/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="https://github.com/rizvihasan.png" width="150" alt="Hasan Rizvi"><br>[**Hasan Rizvi**](https://github.com/rizvihasan) |
   | :---: | :---: | :---: |
 
 </div>
 
 > [!IMPORTANT]
 > ### 🤝🏻 Special Acknowledgement
-> *Special thanks to [Mega Satish](https://github.com/msatmod) and [S Hasan Rizvi](https://github.com/rizvihasan) for their meaningful contributions, guidance, and support that helped shape this work.*
+> *Special thanks to [Mega Satish](https://github.com/msatmod) and [Hasan Rizvi](https://github.com/rizvihasan) for their meaningful contributions, guidance, and support that helped shape this work.*
 
 ### Project Overview
 
@@ -466,7 +466,7 @@ This repository represents a comprehensive collection of study materials, refere
 
 Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) for her exceptional contribution to this repository through "The Wall" - comprehensive module-wise notes that became an invaluable resource for understanding complex Distributed Computing concepts. Her constant support, patience, and clarity throughout this journey made a real difference. Learning alongside her was transformative, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
 
-Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) and [**S Hasan Rizvi**](https://github.com/rizvihasan) for their exceptional support, collaborative efforts, and the technical insights they shared during the development of the "A Comparative Study on Distributed File Systems" project. Working alongside them was a truly enriching experience - their technical expertise, dedication to exploring distributed architectures, and enthusiasm for innovation turned every challenge into a meaningful learning opportunity. Our shared curiosity and collaborative efforts in analyzing complex distributed storage solutions were essential to the project's success. Thank you, Mega and Hasan, for being such outstanding project partners and for all the knowledge and encouragement you shared along the way.
+Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) and [**Hasan Rizvi**](https://github.com/rizvihasan) for their exceptional support, collaborative efforts, and the technical insights they shared during the development of the "A Comparative Study on Distributed File Systems" project. Working alongside them was a truly enriching experience - their technical expertise, dedication to exploring distributed architectures, and enthusiasm for innovation turned every challenge into a meaningful learning opportunity. Our shared curiosity and collaborative efforts in analyzing complex distributed storage solutions were essential to the project's success. Thank you, Mega and Hasan, for being such outstanding project partners and for all the knowledge and encouragement you shared along the way.
 
 Grateful acknowledgment to the faculty members of the Department of Computer Engineering at Terna Engineering College for their guidance in Distributed Computing. Their clear teaching and continued support helped develop a strong understanding of distributed systems and coordination paradigms.
 
