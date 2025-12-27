@@ -425,13 +425,13 @@ Course completion documentation with exit survey:
 This repository is openly shared to support learning and knowledge exchange across the academic community.
 
 **For Students**  
-Use these resources as reference materials for understanding distributed algorithms and preparing for laboratory sessions or examinations.
+Use these resources as reference materials for understanding distributed systems, coordination paradigms, and preparing for examinations. All content is organized for self-paced learning.
 
 **For Educators**  
-These materials may serve as examples for implementation logic or theoretical documentation.
+These materials may serve as curriculum references, lab examples, or supplementary teaching resources. Attribution is appreciated when utilizing content.
 
 **For Researchers**  
-The comparative analysis within the Case Study may provide technical insights into file system architectures.
+The documentation and organization may provide insights into academic resource curation and educational content structuring.
 
 ---
 
