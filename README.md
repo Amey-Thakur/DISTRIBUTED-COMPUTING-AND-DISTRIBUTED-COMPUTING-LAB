@@ -485,7 +485,7 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
 
   <br>
 
-  🔬 **[Distributed Computing Laboratory](Distributed%20Computing%20Lab/)** &nbsp;·&nbsp; 📊 **[Case Study](https://doi.org/10.13140/RG.2.2.31450.82887)**
+  🔬 **[Distributed Computing Laboratory](Distributed%20Computing%20Lab/)** &nbsp;·&nbsp; � **[Case Study](https://doi.org/10.13140/RG.2.2.31450.82887)**
 
 </div>
 
