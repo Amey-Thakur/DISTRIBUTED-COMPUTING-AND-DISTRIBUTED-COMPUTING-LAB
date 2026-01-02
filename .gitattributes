@@ -1,48 +1,41 @@
-# Auto detect text files and perform LF normalization
-* text=auto eol=lf
+# Distributed Computing - Academic Repository
+# Professional .gitattributes for scholarly archiving
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
-*.pptx diff=astextplain
-*.PPTX diff=astextplain
-*.ppt  diff=astextplain
-*.PPT  diff=astextplain
+# Set default behavior to automatically normalize line endings
+* text=auto
 
-# Binary files
+# Ensure text and source files use LF on checkout
+*.md text eol=lf
+*.txt text eol=lf
+*.java text eol=lf diff=java
+*.py text eol=lf diff=python
+*.ipynb text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.sql text eol=lf
+*.sh text eol=lf
+*.cff text eol=lf
+LICENSE text eol=lf
+
+# Explicitly mark binary files
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.gif binary
+*.pdf binary
 *.ico binary
 *.bmp binary
 *.tif binary
 *.tiff binary
 
-# Archives
-*.gz binary
-*.zip binary
-*.7z binary
-*.rar binary
-*.tar binary
-*.iso binary
+# Office Documents
+*.doc diff=astextplain
+*.docx diff=astextplain
+*.ppt diff=astextplain
+*.pptx diff=astextplain
+*.xls diff=astextplain
+*.xlsx diff=astextplain
 
-# Source Codes
-*.java  text diff=java
-*.py    text diff=python
-*.ipynb text
-*.md    text
-*.txt   text
-*.sql   text
-*.sh    text
-*.js    text
-*.html  text
-*.css   text
+# Improve diff handling
+*.md text diff=markdown
