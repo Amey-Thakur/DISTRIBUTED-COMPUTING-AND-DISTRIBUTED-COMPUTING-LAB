@@ -296,7 +296,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
   **A technical analysis and comparative evaluation of distinct architectures of Distributed File Systems.**
 
-  [![Project](https://img.shields.io/badge/Project-RPP-purple.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
+  [![Project](https://img.shields.io/badge/Project-Research%20Paper%20Presentation-purple.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
   [![Stack](https://img.shields.io/badge/Stack-Technical%20Analysis-blue.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
   [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
 
