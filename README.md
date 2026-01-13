@@ -304,8 +304,8 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 <div align="center">
 
-  #### 👥 Authors
-  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur) | <img src="THE%20WALL/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod) | <img src="https://github.com/rizvihasan.png" width="150" alt="Hasan Rizvi"><br>[**Hasan Rizvi**](https://github.com/rizvihasan) |
+  #### Authors
+  | <img src="https://github.com/Amey-Thakur.png" width="150" alt="Amey Thakur"><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <img src="THE%20WALL/Mega/Mega.png" width="150" alt="Mega Satish"><br>[**Mega Satish**](https://github.com/msatmod)<br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) | <img src="https://github.com/rizvihasan.png" width="150" alt="Hasan Rizvi"><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/rizvihasan) |
   | :---: | :---: | :---: |
 
 </div>
