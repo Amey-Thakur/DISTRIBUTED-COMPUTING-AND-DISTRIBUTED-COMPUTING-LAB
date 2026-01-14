@@ -262,7 +262,7 @@ To Implement Name Resolution.
 
   <br>
 
-  🏠 **[Back to Main Repository](../)**
+  🏠 **[Back to Main Repository](../)** &nbsp;·&nbsp; 📂 **[Case Study](https://doi.org/10.13140/RG.2.2.31450.82887)**
 
 </div>
 
