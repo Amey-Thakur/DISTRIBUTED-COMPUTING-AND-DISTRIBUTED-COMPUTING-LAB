@@ -104,8 +104,7 @@ This collection includes **comprehensive reference materials** covering all majo
 
 </div>
 
-> [!IMPORTANT]
-> 💝 **Special Thanks**: A heartfelt thank you to Mega for her constant support, patience, and clarity throughout this journey. Learning alongside her made a real difference, not only because she explained concepts so clearly, but because she truly cared about understanding them together. Her thoughtful approach to teaching, openness to discussion, and steady encouragement turned challenges into meaningful learning moments. This work reflects the growth that came from learning side by side. Thank you, Mega, for everything you shared and taught along the way.
+
 
 ### The Wall - Notes Authored by [MEGA SATISH](https://github.com/msatmod)
 
