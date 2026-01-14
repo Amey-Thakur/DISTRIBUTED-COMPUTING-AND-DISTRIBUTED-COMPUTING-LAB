@@ -179,7 +179,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 ### Program Details
 
 <details>
-<summary><b>Experiment-2: Socket Programming (2 Programs)</b></summary>
+<summary><b>Experiment 2: Socket Programming (2 Programs)</b></summary>
 <br>
 
 | Program | Category | Description | Code |
@@ -189,7 +189,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 </details>
 
 <details>
-<summary><b>Experiment-3: RMI / Pyro4 (2 Programs)</b></summary>
+<summary><b>Experiment 3: RMI / Pyro4 (2 Programs)</b></summary>
 <br>
 
 | Program | Category | Description | Code |
@@ -199,7 +199,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 </details>
 
 <details>
-<summary><b>Experiment-4: Clock Synchronization (2 Programs)</b></summary>
+<summary><b>Experiment 4: Clock Synchronization (2 Programs)</b></summary>
 <br>
 
 | Program | Category | Description | Code |
@@ -209,7 +209,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 </details>
 
 <details>
-<summary><b>Experiment-5: Election Algorithm (1 Program)</b></summary>
+<summary><b>Experiment 5: Election Algorithm (1 Program)</b></summary>
 <br>
 
 | Program | Category | Description | Code |
@@ -218,7 +218,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 </details>
 
 <details>
-<summary><b>Experiment-6: Mutual Exclusion (1 Program)</b></summary>
+<summary><b>Experiment 6: Mutual Exclusion (1 Program)</b></summary>
 <br>
 
 | Program | Category | Description | Code |
@@ -227,7 +227,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 </details>
 
 <details>
-<summary><b>Experiment-7: Deadlock Detection (6 Programs)</b></summary>
+<summary><b>Experiment 7: Deadlock Detection (6 Programs)</b></summary>
 <br>
 
 | Program | Category | Description | Code |
@@ -241,7 +241,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 </details>
 
 <details>
-<summary><b>Experiment-8: Load Balancing (2 Programs)</b></summary>
+<summary><b>Experiment 8: Load Balancing (2 Programs)</b></summary>
 <br>
 
 | Program | Category | Description | Code |
@@ -251,7 +251,7 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 </details>
 
 <details>
-<summary><b>Experiment-10: Name Resolution & RPC (4 Programs)</b></summary>
+<summary><b>Experiment 10: Name Resolution & RPC (4 Programs)</b></summary>
 <br>
 
 | Program | Category | Description | Code |
