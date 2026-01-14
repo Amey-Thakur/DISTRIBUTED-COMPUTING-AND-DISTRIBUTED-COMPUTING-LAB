@@ -337,7 +337,7 @@ Internal assessment evaluations conducted during the course:
 |:-:|:---|:---|
 | 1 | [Question Paper](IAT-2/DC_IAT-2_Question_Paper.pdf) | DC Internal Assessment Test 2 Question Paper |
 
-### Additional Resources:
+**Additional Resources:**
 
 | # | Resource | Description |
 |:-:|:---|:---|
@@ -361,7 +361,7 @@ Final semester examination submission:
 |:-:|:---|:---|:-:|
 | 1 | [Question Paper](Semester%20Exam/DC_Question_Paper.pdf) | Official University Question Paper | May 20, 2022 |
 
-### Additional Resources:
+**Additional Resources:**
 
 | # | Resource | Description |
 |:-:|:---|:---|
