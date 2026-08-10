@@ -291,8 +291,8 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 <div align="center">
 
   ### Authors
-  | <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="THE%20WALL/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/rizvihasan) |
-  | :---: | :---: | :---: |
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="THE%20WALL/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/rizvihasan) |
+| :---: | :---: | :---: |
 
 </div>
 
@@ -314,7 +314,7 @@ This Research Paper Presentation (RPP) provides a detailed comparative analysis 
 |:-:|:---|:---|:-:|
 | 1 | [**Research Paper**](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf) | Scholarly comparative analysis | April 2022 |
 | 2 | [**Presentation**](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pdf) | Visual deck of the study (PDF) | April 2022 |
-| 3 | [**Source Archive**](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP.zip) | Complete project documentation (ZIP) | April 2022 |
+| 3 | [**Presentation Source**](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A%20COMPARATIVE%20STUDY%20ON%20DISTRIBUTED%20FILE%20SYSTEMS.pptx) | Editable deck of the study (PPTX) | April 2022 |
 | 4 | [**ResearchGate**](https://doi.org/10.13140/RG.2.2.31450.82887) | Case study available on ResearchGate | April 2022 |
 
 ---
