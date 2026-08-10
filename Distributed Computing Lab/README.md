@@ -7,11 +7,11 @@
 
   ### CSL802 · Semester VIII · Computer Engineering
 
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
-  [![Documents](https://img.shields.io/badge/Documents-10-yellowgreen.svg)](#experiment-1-nos-vs-dos-comparison)
-  [![Language](https://img.shields.io/badge/Language-Python%20%7C%20Java-blueviolet.svg)](./)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
+  [![Documents](https://img.shields.io/badge/Documents-10-3949AB.svg)](#experiment-1-nos-vs-dos-comparison)
+  [![Language](https://img.shields.io/badge/Language-Python%20%7C%20Java-8250DF.svg)](./)
   [![Middleware](https://img.shields.io/badge/Middleware-Pyro4%20%7C%20RPC-orange.svg)](./)
-  [![Type](https://img.shields.io/badge/Type-Code%20%7C%20PDF-brightgreen.svg)](./)
+  [![Type](https://img.shields.io/badge/Type-Code%20%7C%20PDF-546E7A.svg)](./)
 
   **A comprehensive collection of laboratory experiments for Distributed Computing, covering clock synchronization, election algorithms, mutual exclusion, deadlock detection, and middleware protocols.**
 
@@ -277,3 +277,4 @@ To Implement Name Resolution.
   *University of Mumbai · Curated by [Amey Thakur](https://github.com/Amey-Thakur)*
 
 </div>
+

@@ -10,9 +10,9 @@
   ### CSC802 & CSL802 · Semester VIII · Computer Engineering
 
   [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-  [![University](https://img.shields.io/badge/University-Mumbai-%23A6192E.svg)](https://mu.ac.in/)
-  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-orange.svg)](https://ternaengg.ac.in/)
-  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
+  [![University](https://img.shields.io/badge/University-Mumbai-A6192E.svg)](https://mu.ac.in/)
+  [![Institution](https://img.shields.io/badge/Institution-Terna%20Engineering%20College-E8710A.svg)](https://ternaengg.ac.in/)
+  [![Curated by](https://img.shields.io/badge/Curated%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
 
   **A comprehensive academic resource for Distributed Computing (DC) and Distributed Computing Laboratory (DC Lab), covering communication paradigms, synchronization algorithms, election protocols, resource management, and distributed file systems.**
 
@@ -100,7 +100,7 @@ This collection includes **comprehensive reference materials** covering all majo
 
 **Collaborative Study Notes by Amey & Mega**
 
-| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="THE%20WALL/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="THE%20WALL/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) |
 | :---: | :---: |
 
 </div>
@@ -155,9 +155,9 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
 <div align="center">
 
-  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-10-yellowgreen.svg)](Distributed%20Computing%20Lab/)
-  [![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](Distributed%20Computing%20Lab/)
-  [![Language](https://img.shields.io/badge/Language-Python%20%7C%20Java-orange.svg)](Distributed%20Computing%20Lab/)
+  [![Total Experiments](https://img.shields.io/badge/Total%20Experiments-10-3949AB.svg)](Distributed%20Computing%20Lab/)
+  [![Status](https://img.shields.io/badge/Status-Complete-2EA043.svg)](Distributed%20Computing%20Lab/)
+  [![Language](https://img.shields.io/badge/Language-Python%20%7C%20Java-8250DF.svg)](Distributed%20Computing%20Lab/)
 
 </div>
 
@@ -282,16 +282,16 @@ The laboratory component (CSL802) focuses on hands-on implementation of distribu
 
   **A technical analysis and comparative evaluation of distinct architectures of Distributed File Systems.**
 
-  [![Project](https://img.shields.io/badge/Project-Research%20Paper%20Presentation-purple.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
-  [![Stack](https://img.shields.io/badge/Stack-Technical%20Analysis-blue.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
-  [![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
+  [![Project](https://img.shields.io/badge/Project-Research%20Paper%20Presentation-BF3989.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
+  [![Stack](https://img.shields.io/badge/Stack-Technical%20Analysis-8250DF.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
+  [![Status](https://img.shields.io/badge/Status-Completed-2EA043.svg)](Research%20Paper%20Presentation/AMEY_B-50_DC_RPP/A_Comparative_Study_on_Distributed_File_Systems.pdf)
 
 </div>
 
 <div align="center">
 
   ### Authors
-| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="THE%20WALL/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/rizvihasan) |
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="THE%20WALL/Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) | <a href="https://github.com/rizvihasan"><img src="https://github.com/rizvihasan.png" width="150" height="150" alt="Hasan Rizvi"></a><br>[**Hasan Rizvi**](https://github.com/rizvihasan)<br><br>[![GitHub](https://img.shields.io/badge/GitHub-rizvihasan-181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/rizvihasan) |
 | :---: | :---: | :---: |
 
 </div>
@@ -486,3 +486,4 @@ Special thanks to the mentors and peers whose encouragement, discussions, and su
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
   
 </div>
+
