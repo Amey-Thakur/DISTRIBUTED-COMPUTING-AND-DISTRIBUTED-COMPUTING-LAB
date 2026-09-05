@@ -1,0 +1,43 @@
+# Distributed Computing and Distributed Computing Laboratory
+
+> CSC802: Distributed Computing [DC] & CSL802: Distributed Computing Lab [DC
+> Lab] | BE Semester VIII | Computer Engineering
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Mega Satish, ORCID 0000-0002-1844-9557
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering, Fourth Year, Semester VIII
+Course codes: CSC802, CSL802
+Licence: CC BY 4.0, attribution required
+Repository created: 14 January 2022
+Work dated: 9 August 2022
+
+## What is in this repository
+
+- Assignments, 3 files
+- Distributed Computing Lab, 31 files
+- IAT-1, 4 files
+- IAT-2, 5 files
+- Quizzes, 4 files
+- Reference Books, 67 files
+- Research Paper Presentation, 3 files
+- Semester Exam, 9 files
+- Submission Report, 5 files
+- THE WALL, 8 files
+- BE Time Table.pdf
+- MU SEM VIII SYLLABUS.pdf
+
+## Subject terms
+
+bully-algorithm, clock-synchronization, computer-engineering,
+computer-science, distributed-computing, distributed-systems,
+distributed-systems-algorithm, engineering, fault-tolerance,
+lamport-clock, load-balancing, mutual-exclusion, study-notes, textbooks,
+university-of-mumbai
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/DISTRIBUTED-COMPUTING-AND-DISTRIBUTED-COMPUTING-LAB
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
